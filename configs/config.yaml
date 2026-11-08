@@ -1,0 +1,62 @@
+
+project:
+  name: "Medical-VQA-PEFT-Research"
+  seed: 42
+  device: "auto"
+
+paths:
+  raw_data: "data/raw"
+  processed_data: "data/processed"
+  splits: "data/splits"
+  checkpoints: "results/checkpoints"
+  metrics: "results/metrics"
+  logs: "results/logs"
+  graphs: "results/graphs"
+
+datasets:
+  VQA_RAD:
+    path: "data/raw/VQA_RAD"
+    enabled: true
+
+  SLAKE:
+    path: "data/raw/SLAKE"
+    enabled: true
+
+  PathVQA:
+    path: "data/raw/PathVQA"
+    enabled: true
+
+model:
+  model_id: null
+  model_family: null
+  load_in_4bit: false
+
+training:
+  num_train_epochs: 1
+  learning_rate: 0.00002
+  per_device_train_batch_size: 1
+  per_device_eval_batch_size: 1
+  gradient_accumulation_steps: 8
+  max_length: 512
+  warmup_ratio: 0.03
+  weight_decay: 0.01
+  logging_steps: 10
+  gradient_checkpointing: true
+
+evaluation:
+  batch_size: 1
+  metrics:
+    - accuracy
+    - exact_match
+    - f1
+
+experiments:
+  methods:
+    - lora
+    - qlora
+    - prompt_tuning
+
+  compare_accuracy: true
+  compare_training_time: true
+  compare_memory_usage: true
+  compare_trainable_parameters: true
