@@ -14,3 +14,8 @@ results/logs/*
 
 .ipynb_checkpoints/
 .DS_Store
+# Generated results
+results/metrics/
+results/graphs/
+results/logs/
+results/checkpoints/
