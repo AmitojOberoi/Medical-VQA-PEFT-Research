@@ -31,6 +31,7 @@ PARQUET_BATCH_SIZE = 128
 
 def check_required_path(path):
     """Raise an error if a required file or directory is missing."""
+
     if not path.exists():
         raise FileNotFoundError(
             f"Required dataset path not found: {path}"
@@ -75,6 +76,25 @@ def print_statistics(dataset_name, stats):
 
     for key, value in sorted(stats.items()):
         print(f"  {key}: {value}")
+
+
+def normalize_answer(answer):
+    """
+    Convert valid answers into strings.
+
+    Numeric answers such as 2, 4 and 12 are valid VQA answers.
+    Empty and whitespace-only answers are rejected.
+    """
+
+    if answer is None:
+        return None
+
+    normalized = str(answer).strip()
+
+    if not normalized:
+        return None
+
+    return normalized
 
 
 # ============================================================
@@ -125,10 +145,15 @@ def prepare_slake():
                     continue
 
                 question = item.get("question")
-                answer = item.get("answer")
+                answer = normalize_answer(item.get("answer"))
                 image_name = item.get("img_name")
 
-                if not question or answer is None or not image_name:
+                # Exclude records with missing answers.
+                if answer is None:
+                    stats["empty_answers_skipped"] += 1
+                    continue
+
+                if not question or not image_name:
                     stats["incomplete_records"] += 1
                     continue
 
@@ -247,9 +272,13 @@ def prepare_vqarad():
 
             image_name = item.get("image_name")
             question = item.get("question")
-            answer = item.get("answer")
+            answer = normalize_answer(item.get("answer"))
 
-            if not image_name or not question or answer is None:
+            if answer is None:
+                stats["empty_answers_skipped"] += 1
+                continue
+
+            if not image_name or not question:
                 stats["incomplete_records"] += 1
                 continue
 
@@ -351,13 +380,13 @@ def prepare_pathvqa():
 
                         image_bytes = image.get("bytes")
                         question = item.get("question")
-                        answer = item.get("answer")
+                        answer = normalize_answer(item.get("answer"))
 
-                        if (
-                            not image_bytes
-                            or not question
-                            or answer is None
-                        ):
+                        if answer is None:
+                            stats["empty_answers_skipped"] += 1
+                            continue
+
+                        if not image_bytes or not question:
                             stats["incomplete_records"] += 1
                             continue
 
