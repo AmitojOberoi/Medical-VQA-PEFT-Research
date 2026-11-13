@@ -349,93 +349,230 @@ def prepare_pathvqa():
 
     stats = Counter()
 
-    for split, pattern in split_patterns.items():
+    # ========================================================
+    # STEP 1: SCAN VALIDATION AND TEST IMAGES
+    # ========================================================
 
-        parquet_files = sorted(data_dir.glob(pattern))
+    print("\nScanning validation and test images...")
+
+    protected_hashes = {}
+
+    for protected_split in ("validation", "test"):
+
+        parquet_files = sorted(
+            data_dir.glob(split_patterns[protected_split])
+        )
 
         if not parquet_files:
             raise FileNotFoundError(
-                f"No Parquet files found for PathVQA {split} split."
+                f"No Parquet files found for PathVQA {protected_split}."
             )
 
-        output_path = ANNOTATIONS / f"pathvqa_{split}.jsonl"
+        for parquet_file in parquet_files:
 
-        with output_path.open(
-            "w", encoding="utf-8"
-        ) as output_file:
+            print(f"Scanning: {parquet_file.name}")
 
-            for parquet_file in parquet_files:
+            parquet = pq.ParquetFile(parquet_file)
 
-                print(f"Reading: {parquet_file.name}")
+            for batch in parquet.iter_batches(
+                columns=["image"],
+                batch_size=PARQUET_BATCH_SIZE
+            ):
 
-                parquet = pq.ParquetFile(parquet_file)
+                for item in batch.column("image").to_pylist():
 
-                for batch in parquet.iter_batches(
-                    batch_size=PARQUET_BATCH_SIZE
-                ):
+                    image = item or {}
+                    image_bytes = image.get("bytes")
 
-                    for item in batch.to_pylist():
+                    if not image_bytes:
+                        continue
 
-                        image = item.get("image") or {}
+                    image_hash = hashlib.sha256(
+                        image_bytes
+                    ).hexdigest()
 
-                        image_bytes = image.get("bytes")
-                        question = item.get("question")
-                        answer = normalize_answer(item.get("answer"))
+                    protected_hashes.setdefault(
+                        image_hash, set()
+                    ).add(protected_split)
 
-                        if answer is None:
-                            stats["empty_answers_skipped"] += 1
-                            continue
+    print(
+        "\nUnique protected image hashes:",
+        len(protected_hashes)
+    )
 
-                        if not image_bytes or not question:
-                            stats["incomplete_records"] += 1
-                            continue
+    # ========================================================
+    # STEP 2: CREATE EXCLUSION AUDIT FILE
+    # ========================================================
 
-                        original_path = image.get("path") or ""
+    audit_path = (
+        PROCESSED / "pathvqa_leakage_exclusions.jsonl"
+    )
 
-                        suffix = (
-                            Path(original_path).suffix or ".jpg"
-                        ).lower()
+    audit_path.parent.mkdir(
+        parents=True,
+        exist_ok=True
+    )
 
-                        # Hash image bytes to create a stable,
-                        # collision-resistant filename.
-                        image_hash = hashlib.sha256(
-                            image_bytes
-                        ).hexdigest()
+    # ========================================================
+    # STEP 3: PROCESS ORIGINAL DATASET SPLITS
+    # ========================================================
 
-                        filename = f"{image_hash}{suffix}"
+    with audit_path.open(
+        "w", encoding="utf-8"
+    ) as audit_file:
 
-                        destination = (
-                            IMAGES / "pathvqa" / filename
-                        )
+        for split, pattern in split_patterns.items():
 
-                        destination.parent.mkdir(
-                            parents=True, exist_ok=True
-                        )
+            print("\n" + "-" * 60)
+            print(f"PROCESSING PATHVQA: {split.upper()}")
+            print("-" * 60)
 
-                        # Avoid writing the same image repeatedly.
-                        if not destination.exists():
-                            destination.write_bytes(image_bytes)
+            parquet_files = sorted(
+                data_dir.glob(pattern)
+            )
 
-                        record = {
-                            "dataset": "PathVQA",
-                            "split": split,
-                            "image_path": destination.relative_to(
-                                ROOT
-                            ).as_posix(),
-                            "question": question,
-                            "answer": answer,
-                            "question_type": None,
-                            "answer_type": None,
-                            "modality": "Pathology",
-                            "source_id": original_path or image_hash,
-                            "source_image_id": original_path or image_hash,
-                        }
+            if not parquet_files:
+                raise FileNotFoundError(
+                    f"No Parquet files found for PathVQA {split}."
+                )
 
-                        write_record(record, output_file)
+            output_path = ANNOTATIONS / f"pathvqa_{split}.jsonl"
 
-                        stats[f"{split}_records"] += 1
+            with output_path.open(
+                "w", encoding="utf-8"
+            ) as output_file:
+
+                for parquet_file in parquet_files:
+
+                    print(f"Reading: {parquet_file.name}")
+
+                    parquet = pq.ParquetFile(parquet_file)
+
+                    for batch in parquet.iter_batches(
+                        batch_size=PARQUET_BATCH_SIZE
+                    ):
+
+                        for item in batch.to_pylist():
+
+                            image = item.get("image") or {}
+
+                            image_bytes = image.get("bytes")
+                            question = item.get("question")
+
+                            answer = normalize_answer(
+                                item.get("answer")
+                            )
+
+                            if answer is None:
+                                stats["empty_answers_skipped"] += 1
+                                continue
+
+                            if not image_bytes or not question:
+                                stats["incomplete_records"] += 1
+                                continue
+
+                            original_path = image.get("path") or ""
+
+                            suffix = (
+                                Path(original_path).suffix or ".jpg"
+                            ).lower()
+
+                            # Calculate SHA256 image-content hash.
+                            image_hash = hashlib.sha256(
+                                image_bytes
+                            ).hexdigest()
+
+                            # ====================================
+                            # STEP 4: PREVENT IMAGE-LEVEL LEAKAGE
+                            # ====================================
+
+                            if (
+                                split == "train"
+                                and image_hash in protected_hashes
+                            ):
+
+                                audit_record = {
+                                    "dataset": "PathVQA",
+                                    "excluded_from": "train",
+                                    "protected_splits": sorted(
+                                        protected_hashes[image_hash]
+                                    ),
+                                    "reason": (
+                                        "Image content also occurs "
+                                        "in validation or test."
+                                    ),
+                                    "image_hash": image_hash,
+                                    "source_id": (
+                                        original_path or image_hash
+                                    ),
+                                    "question": question,
+                                    "answer": answer,
+                                }
+
+                                write_record(
+                                    audit_record,
+                                    audit_file
+                                )
+
+                                stats[
+                                    "cross_split_duplicate_records_skipped"
+                                ] += 1
+
+                                continue
+
+                            # ====================================
+                            # STEP 5: SAVE IMAGE
+                            # ====================================
+
+                            filename = f"{image_hash}{suffix}"
+
+                            destination = (
+                                IMAGES / "pathvqa" / filename
+                            )
+
+                            destination.parent.mkdir(
+                                parents=True,
+                                exist_ok=True
+                            )
+
+                            if not destination.exists():
+                                destination.write_bytes(image_bytes)
+
+                            # ====================================
+                            # STEP 6: CREATE ANNOTATION
+                            # ====================================
+
+                            record = {
+                                "dataset": "PathVQA",
+                                "split": split,
+                                "image_path": destination.relative_to(
+                                    ROOT
+                                ).as_posix(),
+                                "question": question,
+                                "answer": answer,
+                                "question_type": None,
+                                "answer_type": None,
+                                "modality": "Pathology",
+                                "source_id": (
+                                    original_path or image_hash
+                                ),
+                                "source_image_id": (
+                                    original_path or image_hash
+                                ),
+                            }
+
+                            write_record(record, output_file)
+
+                            stats[f"{split}_records"] += 1
+
+    # ========================================================
+    # STEP 7: PRINT FINAL STATISTICS
+    # ========================================================
 
     print_statistics("PathVQA", stats)
+
+    print("\nLeakage exclusion audit saved:")
+    print(audit_path)
 
     return stats
 
@@ -465,6 +602,14 @@ def main():
             "train": 0.80,
             "validation": 0.10,
             "test": 0.10,
+        },
+        "pathvqa_leakage_policy": {
+            "method": "SHA256 image-content comparison",
+            "protected_splits": ["validation", "test"],
+            "action": "Exclude overlapping training annotations",
+            "audit_file": (
+                "data/processed/pathvqa_leakage_exclusions.jsonl"
+            ),
         },
         "datasets": {
             name: dict(stats)
