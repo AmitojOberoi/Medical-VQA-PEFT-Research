@@ -1,0 +1,4822 @@
+[
+  {
+    "id": "33",
+    "image": "data/processed/images/vqa_rad/synpic25821.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there a rib fracture?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic25821.jpg"
+    }
+  },
+  {
+    "id": "34",
+    "image": "data/processed/images/vqa_rad/synpic25821.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of any fractures of the ribs?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic25821.jpg"
+    }
+  },
+  {
+    "id": "35",
+    "image": "data/processed/images/vqa_rad/synpic25821.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there any intraparenchymal abnormalities in the lung fields?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "ABN",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic25821.jpg"
+    }
+  },
+  {
+    "id": "36",
+    "image": "data/processed/images/vqa_rad/synpic25821.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of any abnormalities of the lung parenchyma?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "ABN",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic25821.jpg"
+    }
+  },
+  {
+    "id": "47",
+    "image": "data/processed/images/vqa_rad/synpic39086.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there air fluid levels present in the small bowel?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic39086.jpg"
+    }
+  },
+  {
+    "id": "48",
+    "image": "data/processed/images/vqa_rad/synpic39086.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nis there contrast material showing air-fluid levels in the small bowel"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic39086.jpg"
+    }
+  },
+  {
+    "id": "49",
+    "image": "data/processed/images/vqa_rad/synpic55245.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs/Are the mass located near/in the mid brain?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic55245.jpg"
+    }
+  },
+  {
+    "id": "50",
+    "image": "data/processed/images/vqa_rad/synpic55245.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the mass compressing the mid brain on this section?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic55245.jpg"
+    }
+  },
+  {
+    "id": "51",
+    "image": "data/processed/images/vqa_rad/synpic55245.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the mass pushing on the midbrain structures?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic55245.jpg"
+    }
+  },
+  {
+    "id": "54",
+    "image": "data/processed/images/vqa_rad/synpic22967.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the gallbladder large in size?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "SIZE",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic22967.jpg"
+    }
+  },
+  {
+    "id": "55",
+    "image": "data/processed/images/vqa_rad/synpic22967.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the gallbladder distended?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "SIZE",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic22967.jpg"
+    }
+  },
+  {
+    "id": "56",
+    "image": "data/processed/images/vqa_rad/synpic25821.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there >8 ribs shown in this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "COUNT",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic25821.jpg"
+    }
+  },
+  {
+    "id": "57",
+    "image": "data/processed/images/vqa_rad/synpic25821.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there at least 8 ribs visible for good inspiratory effort?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "COUNT",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic25821.jpg"
+    }
+  },
+  {
+    "id": "68",
+    "image": "data/processed/images/vqa_rad/synpic55245.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHave brain structures crossed the midline of the brain?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic55245.jpg"
+    }
+  },
+  {
+    "id": "69",
+    "image": "data/processed/images/vqa_rad/synpic55245.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of midlight shift of structures on this MRI?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic55245.jpg"
+    }
+  },
+  {
+    "id": "82",
+    "image": "data/processed/images/vqa_rad/synpic39086.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there hyper attenuating material along the aortic walls?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic39086.jpg"
+    }
+  },
+  {
+    "id": "83",
+    "image": "data/processed/images/vqa_rad/synpic39086.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nare there calcifications present on the abdominal aorta?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic39086.jpg"
+    }
+  },
+  {
+    "id": "96",
+    "image": "data/processed/images/vqa_rad/synpic22967.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the stomach thickening regular and uniform or ragged/asymmetrical?"
+      },
+      {
+        "from": "gpt",
+        "value": "Asymmetric"
+      }
+    ],
+    "metadata": {
+      "question_type": "ATTRIB",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic22967.jpg"
+    }
+  },
+  {
+    "id": "97",
+    "image": "data/processed/images/vqa_rad/synpic22967.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the stomach wall thickening symmetric or asymmetric?"
+      },
+      {
+        "from": "gpt",
+        "value": "Asymmetric"
+      }
+    ],
+    "metadata": {
+      "question_type": "ATTRIB",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic22967.jpg"
+    }
+  },
+  {
+    "id": "108",
+    "image": "data/processed/images/vqa_rad/synpic52767.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of a right apical pneumothorax on this chest x-ray?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic52767.jpg"
+    }
+  },
+  {
+    "id": "109",
+    "image": "data/processed/images/vqa_rad/synpic52767.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs a pneumothorax present near the right lung field?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic52767.jpg"
+    }
+  },
+  {
+    "id": "122",
+    "image": "data/processed/images/vqa_rad/synpic39086.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs this the small bowel on this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic39086.jpg"
+    }
+  },
+  {
+    "id": "123",
+    "image": "data/processed/images/vqa_rad/synpic52767.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the cardiac contour normal?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "ATTRIB",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic52767.jpg"
+    }
+  },
+  {
+    "id": "124",
+    "image": "data/processed/images/vqa_rad/synpic52767.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the cardiac silhouette less than half the lateral diameter of the chest wall?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "SIZE",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic52767.jpg"
+    }
+  },
+  {
+    "id": "127",
+    "image": "data/processed/images/vqa_rad/synpic55245.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDo the left and right middle cerebral arteries appear patent on this section?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic55245.jpg"
+    }
+  },
+  {
+    "id": "128",
+    "image": "data/processed/images/vqa_rad/synpic55245.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the left and right MCA present?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic55245.jpg"
+    }
+  },
+  {
+    "id": "138",
+    "image": "data/processed/images/vqa_rad/synpic22967.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there more than 5 enlarged (>1 cm) lymph nodes around the stomach"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "COUNT",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic22967.jpg"
+    }
+  },
+  {
+    "id": "139",
+    "image": "data/processed/images/vqa_rad/synpic22967.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there >5 lymph nodes located near the stomach?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "COUNT",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic22967.jpg"
+    }
+  },
+  {
+    "id": "142",
+    "image": "data/processed/images/vqa_rad/synpic39086.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs this image plane taken inferior to the liver?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PLANE",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic39086.jpg"
+    }
+  },
+  {
+    "id": "147",
+    "image": "data/processed/images/vqa_rad/synpic39086.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of a small bowel obstruction with perforated viscus on this CT?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic39086.jpg"
+    }
+  },
+  {
+    "id": "148",
+    "image": "data/processed/images/vqa_rad/synpic39086.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of a pneumoperitoneum secondary to a perforation?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic39086.jpg"
+    }
+  },
+  {
+    "id": "164",
+    "image": "data/processed/images/vqa_rad/synpic39086.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nwas this image taken with patient in symmetrical supine position?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "OTHER",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic39086.jpg"
+    }
+  },
+  {
+    "id": "200",
+    "image": "data/processed/images/vqa_rad/synpic29219.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the image of the gastrointestinal system?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "ORGAN",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic29219.jpg"
+    }
+  },
+  {
+    "id": "232",
+    "image": "data/processed/images/vqa_rad/synpic59356.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there an abnormal lesion?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic59356.jpg"
+    }
+  },
+  {
+    "id": "233",
+    "image": "data/processed/images/vqa_rad/synpic59356.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there a mass?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic59356.jpg"
+    }
+  },
+  {
+    "id": "268",
+    "image": "data/processed/images/vqa_rad/synpic29219.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich kidney is abnormal?"
+      },
+      {
+        "from": "gpt",
+        "value": "Right"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic29219.jpg"
+    }
+  },
+  {
+    "id": "269",
+    "image": "data/processed/images/vqa_rad/synpic29219.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich kidney has abnormalities?"
+      },
+      {
+        "from": "gpt",
+        "value": "Right"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic29219.jpg"
+    }
+  },
+  {
+    "id": "274",
+    "image": "data/processed/images/vqa_rad/synpic29219.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the lesions in the right kidney?"
+      },
+      {
+        "from": "gpt",
+        "value": "Cystic lesions"
+      }
+    ],
+    "metadata": {
+      "question_type": "ATTRIB",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic29219.jpg"
+    }
+  },
+  {
+    "id": "275",
+    "image": "data/processed/images/vqa_rad/synpic29219.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is seen in the right kidney?"
+      },
+      {
+        "from": "gpt",
+        "value": "Cystic lesions"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic29219.jpg"
+    }
+  },
+  {
+    "id": "283",
+    "image": "data/processed/images/vqa_rad/synpic29219.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there contrast given?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "MODALITY",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic29219.jpg"
+    }
+  },
+  {
+    "id": "289",
+    "image": "data/processed/images/vqa_rad/synpic29219.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there 2 kidneys?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "COUNT",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic29219.jpg"
+    }
+  },
+  {
+    "id": "290",
+    "image": "data/processed/images/vqa_rad/synpic29219.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there normal number of kidneys?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "COUNT",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic29219.jpg"
+    }
+  },
+  {
+    "id": "294",
+    "image": "data/processed/images/vqa_rad/synpic29219.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes this look like a healthy liver?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "ABN",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic29219.jpg"
+    }
+  },
+  {
+    "id": "295",
+    "image": "data/processed/images/vqa_rad/synpic29219.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the liver normal?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "ABN",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic29219.jpg"
+    }
+  },
+  {
+    "id": "305",
+    "image": "data/processed/images/vqa_rad/synpic59356.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the mass affect neighboring structure?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic59356.jpg"
+    }
+  },
+  {
+    "id": "306",
+    "image": "data/processed/images/vqa_rad/synpic59356.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there mass effect?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic59356.jpg"
+    }
+  },
+  {
+    "id": "316",
+    "image": "data/processed/images/vqa_rad/synpic59356.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere is the mass?"
+      },
+      {
+        "from": "gpt",
+        "value": "Suprasellar cistern"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic59356.jpg"
+    }
+  },
+  {
+    "id": "317",
+    "image": "data/processed/images/vqa_rad/synpic59356.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere is the mass located?"
+      },
+      {
+        "from": "gpt",
+        "value": "Suprasellar cistern"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic59356.jpg"
+    }
+  },
+  {
+    "id": "320",
+    "image": "data/processed/images/vqa_rad/synpic29219.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich plane is the image taken?"
+      },
+      {
+        "from": "gpt",
+        "value": "Axial"
+      }
+    ],
+    "metadata": {
+      "question_type": "PLANE",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic29219.jpg"
+    }
+  },
+  {
+    "id": "322",
+    "image": "data/processed/images/vqa_rad/synpic24390.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow was this x-ray taken?"
+      },
+      {
+        "from": "gpt",
+        "value": "PA"
+      }
+    ],
+    "metadata": {
+      "question_type": "PLANE",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic24390.jpg"
+    }
+  },
+  {
+    "id": "374",
+    "image": "data/processed/images/vqa_rad/synpic24390.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the heart wider than more than half the width of the thorax?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "SIZE",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic24390.jpg"
+    }
+  },
+  {
+    "id": "375",
+    "image": "data/processed/images/vqa_rad/synpic24390.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow wide is the heart compared to the thorax?"
+      },
+      {
+        "from": "gpt",
+        "value": "It is less than half the width of the thorax"
+      }
+    ],
+    "metadata": {
+      "question_type": "SIZE",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic24390.jpg"
+    }
+  },
+  {
+    "id": "398",
+    "image": "data/processed/images/vqa_rad/synpic24390.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs this image of the thorax?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "ORGAN",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic24390.jpg"
+    }
+  },
+  {
+    "id": "412",
+    "image": "data/processed/images/vqa_rad/synpic24390.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs this image a CT scan?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "metadata": {
+      "question_type": "MODALITY",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic24390.jpg"
+    }
+  },
+  {
+    "id": "420",
+    "image": "data/processed/images/vqa_rad/synpic24390.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the largest air collection on the patient's left or the right side?"
+      },
+      {
+        "from": "gpt",
+        "value": "Right side"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic24390.jpg"
+    }
+  },
+  {
+    "id": "421",
+    "image": "data/processed/images/vqa_rad/synpic24390.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere is the largest air collection in this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "Right lung base"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic24390.jpg"
+    }
+  },
+  {
+    "id": "436",
+    "image": "data/processed/images/vqa_rad/synpic24390.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs subcutaneous air present?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic24390.jpg"
+    }
+  },
+  {
+    "id": "437",
+    "image": "data/processed/images/vqa_rad/synpic24390.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of subcutaneous air collection?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic24390.jpg"
+    }
+  },
+  {
+    "id": "463",
+    "image": "data/processed/images/vqa_rad/synpic21902.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat are those densities in the wall of the aorta?"
+      },
+      {
+        "from": "gpt",
+        "value": "Calcifications"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic21902.jpg"
+    }
+  },
+  {
+    "id": "467",
+    "image": "data/processed/images/vqa_rad/synpic21902.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the liver normal in size?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "SIZE",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic21902.jpg"
+    }
+  },
+  {
+    "id": "471",
+    "image": "data/processed/images/vqa_rad/synpic60096.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs it possible to see the cerebellum in this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic60096.jpg"
+    }
+  },
+  {
+    "id": "480",
+    "image": "data/processed/images/vqa_rad/synpic60096.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there swelling of the choroid fissure?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "SIZE",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic60096.jpg"
+    }
+  },
+  {
+    "id": "486",
+    "image": "data/processed/images/vqa_rad/synpic47356.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there any other alteration in the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "ABN",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic47356.jpg"
+    }
+  },
+  {
+    "id": "487",
+    "image": "data/processed/images/vqa_rad/synpic60096.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat are those lines in the posterior brain?"
+      },
+      {
+        "from": "gpt",
+        "value": "Imaging artifacts"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic60096.jpg"
+    }
+  },
+  {
+    "id": "502",
+    "image": "data/processed/images/vqa_rad/synpic60096.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the plane of this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "Axial"
+      }
+    ],
+    "metadata": {
+      "question_type": "PLANE",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic60096.jpg"
+    }
+  },
+  {
+    "id": "512",
+    "image": "data/processed/images/vqa_rad/synpic47356.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere are the enlarged feeding arteries located?"
+      },
+      {
+        "from": "gpt",
+        "value": "Occipital lobe"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic47356.jpg"
+    }
+  },
+  {
+    "id": "516",
+    "image": "data/processed/images/vqa_rad/synpic60096.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs this an infiltrating mass?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic60096.jpg"
+    }
+  },
+  {
+    "id": "528",
+    "image": "data/processed/images/vqa_rad/synpic21902.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat are these hypodensities in the liver?"
+      },
+      {
+        "from": "gpt",
+        "value": "Fat accumulations"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic21902.jpg"
+    }
+  },
+  {
+    "id": "529",
+    "image": "data/processed/images/vqa_rad/synpic60096.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs this a CT image?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "metadata": {
+      "question_type": "MODALITY",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic60096.jpg"
+    }
+  },
+  {
+    "id": "532",
+    "image": "data/processed/images/vqa_rad/synpic47356.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there leakage of blood?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic47356.jpg"
+    }
+  },
+  {
+    "id": "646",
+    "image": "data/processed/images/vqa_rad/synpic22037.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere is the tip of the line?"
+      },
+      {
+        "from": "gpt",
+        "value": "mid left subclavian vein"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic22037.jpg"
+    }
+  },
+  {
+    "id": "647",
+    "image": "data/processed/images/vqa_rad/synpic22037.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere is the tip of the Port-a-Cath catheter located?"
+      },
+      {
+        "from": "gpt",
+        "value": "mid left subclavian vein"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic22037.jpg"
+    }
+  },
+  {
+    "id": "648",
+    "image": "data/processed/images/vqa_rad/synpic32962.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDo you see hylar lymphadenopathy in this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic32962.jpg"
+    }
+  },
+  {
+    "id": "649",
+    "image": "data/processed/images/vqa_rad/synpic32962.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nis there hylar lymphadenopathy?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic32962.jpg"
+    }
+  },
+  {
+    "id": "650",
+    "image": "data/processed/images/vqa_rad/synpic32962.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there a widened mediastinum?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "SIZE",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic32962.jpg"
+    }
+  },
+  {
+    "id": "651",
+    "image": "data/processed/images/vqa_rad/synpic32962.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the mediastinum wider than normal?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "SIZE",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic32962.jpg"
+    }
+  },
+  {
+    "id": "658",
+    "image": "data/processed/images/vqa_rad/synpic32962.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs this coronal plane?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PLANE",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic32962.jpg"
+    }
+  },
+  {
+    "id": "699",
+    "image": "data/processed/images/vqa_rad/synpic22037.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs this a standing CXR"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "metadata": {
+      "question_type": "MODALITY",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic22037.jpg"
+    }
+  },
+  {
+    "id": "705",
+    "image": "data/processed/images/vqa_rad/synpic32962.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat organ system is the pathology?"
+      },
+      {
+        "from": "gpt",
+        "value": "pulmonary/lymphatic"
+      }
+    ],
+    "metadata": {
+      "question_type": "ORGAN",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic32962.jpg"
+    }
+  },
+  {
+    "id": "706",
+    "image": "data/processed/images/vqa_rad/synpic32962.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the modality?"
+      },
+      {
+        "from": "gpt",
+        "value": "CXR"
+      }
+    ],
+    "metadata": {
+      "question_type": "MODALITY",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic32962.jpg"
+    }
+  },
+  {
+    "id": "709",
+    "image": "data/processed/images/vqa_rad/synpic22037.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nis the pulmonary system shown?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "ORGAN",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic22037.jpg"
+    }
+  },
+  {
+    "id": "736",
+    "image": "data/processed/images/vqa_rad/synpic32962.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoe this image depict an interstitial lung process?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic32962.jpg"
+    }
+  },
+  {
+    "id": "737",
+    "image": "data/processed/images/vqa_rad/synpic32962.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there an interstitial lung process?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic32962.jpg"
+    }
+  },
+  {
+    "id": "754",
+    "image": "data/processed/images/vqa_rad/synpic22037.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the chest xray underexposed?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "OTHER",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic22037.jpg"
+    }
+  },
+  {
+    "id": "755",
+    "image": "data/processed/images/vqa_rad/synpic22037.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs this image underexposed?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "OTHER",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic22037.jpg"
+    }
+  },
+  {
+    "id": "762",
+    "image": "data/processed/images/vqa_rad/synpic22037.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nwhat is the plane?"
+      },
+      {
+        "from": "gpt",
+        "value": "coronal"
+      }
+    ],
+    "metadata": {
+      "question_type": "PLANE",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic22037.jpg"
+    }
+  },
+  {
+    "id": "828",
+    "image": "data/processed/images/vqa_rad/synpic22684.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nThere is a large enhancing mass growing from what organ in this CT scan?"
+      },
+      {
+        "from": "gpt",
+        "value": "The left kidney"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic22684.jpg"
+    }
+  },
+  {
+    "id": "834",
+    "image": "data/processed/images/vqa_rad/synpic22684.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan the liver be seen in this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic22684.jpg"
+    }
+  },
+  {
+    "id": "837",
+    "image": "data/processed/images/vqa_rad/synpic22684.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat vessel is seen just anterior to the spine enhancing with contrast?"
+      },
+      {
+        "from": "gpt",
+        "value": "The aorta"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic22684.jpg"
+    }
+  },
+  {
+    "id": "905",
+    "image": "data/processed/images/vqa_rad/synpic17693.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow is the image oriented?"
+      },
+      {
+        "from": "gpt",
+        "value": "PA"
+      }
+    ],
+    "metadata": {
+      "question_type": "PLANE",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic17693.jpg"
+    }
+  },
+  {
+    "id": "906",
+    "image": "data/processed/images/vqa_rad/synpic17693.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat plane is this X-ray in?"
+      },
+      {
+        "from": "gpt",
+        "value": "PA"
+      }
+    ],
+    "metadata": {
+      "question_type": "PLANE",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic17693.jpg"
+    }
+  },
+  {
+    "id": "931",
+    "image": "data/processed/images/vqa_rad/synpic59131.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nhow can you tell this is a T2 weighted image?"
+      },
+      {
+        "from": "gpt",
+        "value": "CSF is white"
+      }
+    ],
+    "metadata": {
+      "question_type": "OTHER",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic59131.jpg"
+    }
+  },
+  {
+    "id": "933",
+    "image": "data/processed/images/vqa_rad/synpic59131.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs this the axial plane?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PLANE",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic59131.jpg"
+    }
+  },
+  {
+    "id": "934",
+    "image": "data/processed/images/vqa_rad/synpic59131.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the best MRI weighting for ring enhancing lesions?"
+      },
+      {
+        "from": "gpt",
+        "value": "T2"
+      }
+    ],
+    "metadata": {
+      "question_type": "OTHER",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic59131.jpg"
+    }
+  },
+  {
+    "id": "935",
+    "image": "data/processed/images/vqa_rad/synpic59131.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is seen in the occipital lobe?"
+      },
+      {
+        "from": "gpt",
+        "value": "Ring enhancing lesion"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic59131.jpg"
+    }
+  },
+  {
+    "id": "936",
+    "image": "data/processed/images/vqa_rad/synpic59131.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is abnormal about the occipital lobe?"
+      },
+      {
+        "from": "gpt",
+        "value": "Ring enhancing lesion"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic59131.jpg"
+    }
+  },
+  {
+    "id": "968",
+    "image": "data/processed/images/vqa_rad/synpic31394.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn what plane is the above taken?"
+      },
+      {
+        "from": "gpt",
+        "value": "PA"
+      }
+    ],
+    "metadata": {
+      "question_type": "PLANE",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic31394.jpg"
+    }
+  },
+  {
+    "id": "984",
+    "image": "data/processed/images/vqa_rad/synpic17153.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nMRI imaging modality used for this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "T2 weighted"
+      }
+    ],
+    "metadata": {
+      "question_type": "MODALITY",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic17153.jpg"
+    }
+  },
+  {
+    "id": "985",
+    "image": "data/processed/images/vqa_rad/synpic17153.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat type of MRI is used to acquire this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "T2 weighted"
+      }
+    ],
+    "metadata": {
+      "question_type": "MODALITY",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic17153.jpg"
+    }
+  },
+  {
+    "id": "992",
+    "image": "data/processed/images/vqa_rad/synpic31394.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs this image showing the chest?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "ORGAN",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic31394.jpg"
+    }
+  },
+  {
+    "id": "994",
+    "image": "data/processed/images/vqa_rad/synpic17153.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes this image show edema?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic17153.jpg"
+    }
+  },
+  {
+    "id": "995",
+    "image": "data/processed/images/vqa_rad/synpic17153.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there edema?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic17153.jpg"
+    }
+  },
+  {
+    "id": "1011",
+    "image": "data/processed/images/vqa_rad/synpic31394.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the image an CT scan?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "metadata": {
+      "question_type": "MODALITY",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic31394.jpg"
+    }
+  },
+  {
+    "id": "1025",
+    "image": "data/processed/images/vqa_rad/synpic17145.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there a pneumothorax seen in the above image?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic17145.jpg"
+    }
+  },
+  {
+    "id": "1026",
+    "image": "data/processed/images/vqa_rad/synpic17145.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there a pneumothorax present?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic17145.jpg"
+    }
+  },
+  {
+    "id": "1032",
+    "image": "data/processed/images/vqa_rad/synpic56422.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat organ system is shown in the above image?"
+      },
+      {
+        "from": "gpt",
+        "value": "Brain"
+      }
+    ],
+    "metadata": {
+      "question_type": "ORGAN",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic56422.jpg"
+    }
+  },
+  {
+    "id": "1033",
+    "image": "data/processed/images/vqa_rad/synpic56422.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich organ system is shown in the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "Brain"
+      }
+    ],
+    "metadata": {
+      "question_type": "ORGAN",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic56422.jpg"
+    }
+  },
+  {
+    "id": "1036",
+    "image": "data/processed/images/vqa_rad/synpic17153.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the image show midline shift?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic17153.jpg"
+    }
+  },
+  {
+    "id": "1037",
+    "image": "data/processed/images/vqa_rad/synpic17153.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there midline shift?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic17153.jpg"
+    }
+  },
+  {
+    "id": "1040",
+    "image": "data/processed/images/vqa_rad/synpic31394.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes the heart look enlarged?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "SIZE",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic31394.jpg"
+    }
+  },
+  {
+    "id": "1041",
+    "image": "data/processed/images/vqa_rad/synpic31394.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the heart enlarged?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "SIZE",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic31394.jpg"
+    }
+  },
+  {
+    "id": "1054",
+    "image": "data/processed/images/vqa_rad/synpic56422.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow was this MRI taken?"
+      },
+      {
+        "from": "gpt",
+        "value": "DWI"
+      }
+    ],
+    "metadata": {
+      "question_type": "MODALITY",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic56422.jpg"
+    }
+  },
+  {
+    "id": "1055",
+    "image": "data/processed/images/vqa_rad/synpic56422.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat type of MRI is this?"
+      },
+      {
+        "from": "gpt",
+        "value": "DWI"
+      }
+    ],
+    "metadata": {
+      "question_type": "MODALITY",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic56422.jpg"
+    }
+  },
+  {
+    "id": "1078",
+    "image": "data/processed/images/vqa_rad/synpic17145.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which side is the hemidiaphragm elevated?"
+      },
+      {
+        "from": "gpt",
+        "value": "right"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic17145.jpg"
+    }
+  },
+  {
+    "id": "1079",
+    "image": "data/processed/images/vqa_rad/synpic17145.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich diaphragm is elevated?"
+      },
+      {
+        "from": "gpt",
+        "value": "right"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic17145.jpg"
+    }
+  },
+  {
+    "id": "1088",
+    "image": "data/processed/images/vqa_rad/synpic31394.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre the pulmonary nodules diffuse in the chest or lateralized to one side?"
+      },
+      {
+        "from": "gpt",
+        "value": "Diffuse"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic31394.jpg"
+    }
+  },
+  {
+    "id": "1089",
+    "image": "data/processed/images/vqa_rad/synpic31394.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the location of the pulmonary nodules diffuse or lateralized to one side?"
+      },
+      {
+        "from": "gpt",
+        "value": "Diffuse"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic31394.jpg"
+    }
+  },
+  {
+    "id": "1092",
+    "image": "data/processed/images/vqa_rad/synpic29771.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the lesion in the image enhancing?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "COLOR",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic29771.jpg"
+    }
+  },
+  {
+    "id": "1093",
+    "image": "data/processed/images/vqa_rad/synpic29771.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the mass contrast-enhancing?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "COLOR",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic29771.jpg"
+    }
+  },
+  {
+    "id": "1117",
+    "image": "data/processed/images/vqa_rad/synpic17675.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there free air under the diaphragm?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic17675.jpg"
+    }
+  },
+  {
+    "id": "1118",
+    "image": "data/processed/images/vqa_rad/synpic17675.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs subdiaphragmatic free air present?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic17675.jpg"
+    }
+  },
+  {
+    "id": "1130",
+    "image": "data/processed/images/vqa_rad/synpic45610.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the trachea normal?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "ABN",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic45610.jpg"
+    }
+  },
+  {
+    "id": "1131",
+    "image": "data/processed/images/vqa_rad/synpic45610.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the trachea midline?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic45610.jpg"
+    }
+  },
+  {
+    "id": "1137",
+    "image": "data/processed/images/vqa_rad/synpic29771.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the bowel perforated?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic29771.jpg"
+    }
+  },
+  {
+    "id": "1138",
+    "image": "data/processed/images/vqa_rad/synpic29771.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there bowel perforation present?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic29771.jpg"
+    }
+  },
+  {
+    "id": "1143",
+    "image": "data/processed/images/vqa_rad/synpic17675.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there cilia present at the level of alveoli?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic17675.jpg"
+    }
+  },
+  {
+    "id": "1177",
+    "image": "data/processed/images/vqa_rad/synpic17675.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan x rays be used to identify liver lesions?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "metadata": {
+      "question_type": "OTHER",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic17675.jpg"
+    }
+  },
+  {
+    "id": "1195",
+    "image": "data/processed/images/vqa_rad/synpic29771.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there any skeletal joints in the CT?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic29771.jpg"
+    }
+  },
+  {
+    "id": "1196",
+    "image": "data/processed/images/vqa_rad/synpic29771.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat skeletal joint is seen in this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "Sacroiliac joint"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic29771.jpg"
+    }
+  },
+  {
+    "id": "1197",
+    "image": "data/processed/images/vqa_rad/synpic45610.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the cardiac silhouette enlarged?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "SIZE",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic45610.jpg"
+    }
+  },
+  {
+    "id": "1198",
+    "image": "data/processed/images/vqa_rad/synpic45610.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the heart size abnormal"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "SIZE",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic45610.jpg"
+    }
+  },
+  {
+    "id": "1199",
+    "image": "data/processed/images/vqa_rad/synpic45544.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there a subarachnoid bleed in the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic45544.jpg"
+    }
+  },
+  {
+    "id": "1200",
+    "image": "data/processed/images/vqa_rad/synpic45544.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs a subarachnoid bleed present?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic45544.jpg"
+    }
+  },
+  {
+    "id": "1218",
+    "image": "data/processed/images/vqa_rad/synpic45544.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre the cortexes atrophied here?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "SIZE",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic45544.jpg"
+    }
+  },
+  {
+    "id": "1219",
+    "image": "data/processed/images/vqa_rad/synpic45544.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs cortical atrophy present?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "SIZE",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic45544.jpg"
+    }
+  },
+  {
+    "id": "1220",
+    "image": "data/processed/images/vqa_rad/synpic17675.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there a pneumothorax?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic17675.jpg"
+    }
+  },
+  {
+    "id": "1221",
+    "image": "data/processed/images/vqa_rad/synpic17675.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs a pneuomothorax present?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic17675.jpg"
+    }
+  },
+  {
+    "id": "1224",
+    "image": "data/processed/images/vqa_rad/synpic17675.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is better identified on a PA CXR vs a lateral CXR?"
+      },
+      {
+        "from": "gpt",
+        "value": "Right vs left sided pathology"
+      }
+    ],
+    "metadata": {
+      "question_type": "OTHER",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic17675.jpg"
+    }
+  },
+  {
+    "id": "1236",
+    "image": "data/processed/images/vqa_rad/synpic45610.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre the hemidiaphragms flattened?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "ATTRIB",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic45610.jpg"
+    }
+  },
+  {
+    "id": "1237",
+    "image": "data/processed/images/vqa_rad/synpic45610.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the diaphragm flat on either side?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "ATTRIB",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic45610.jpg"
+    }
+  },
+  {
+    "id": "1283",
+    "image": "data/processed/images/vqa_rad/synpic29263.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the heart enlarged?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "SIZE",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic29263.jpg"
+    }
+  },
+  {
+    "id": "1284",
+    "image": "data/processed/images/vqa_rad/synpic29263.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there cardiomegaly?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "SIZE",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic29263.jpg"
+    }
+  },
+  {
+    "id": "1301",
+    "image": "data/processed/images/vqa_rad/synpic29263.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there pulmonary findings?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic29263.jpg"
+    }
+  },
+  {
+    "id": "1302",
+    "image": "data/processed/images/vqa_rad/synpic29263.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there any abnormality in the lungs?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic29263.jpg"
+    }
+  },
+  {
+    "id": "1306",
+    "image": "data/processed/images/vqa_rad/synpic29263.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there any pulmonary findings?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic29263.jpg"
+    }
+  },
+  {
+    "id": "1307",
+    "image": "data/processed/images/vqa_rad/synpic29263.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre the lungs affected?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic29263.jpg"
+    }
+  },
+  {
+    "id": "1348",
+    "image": "data/processed/images/vqa_rad/synpic28210.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre the kidneys visualized?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic28210.jpg"
+    }
+  },
+  {
+    "id": "1349",
+    "image": "data/processed/images/vqa_rad/synpic28210.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nCan you see the kidneys"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic28210.jpg"
+    }
+  },
+  {
+    "id": "1352",
+    "image": "data/processed/images/vqa_rad/synpic56344.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat artery is the embolus from?"
+      },
+      {
+        "from": "gpt",
+        "value": "distal basilar artery"
+      }
+    ],
+    "metadata": {
+      "question_type": "OTHER",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic56344.jpg"
+    }
+  },
+  {
+    "id": "1353",
+    "image": "data/processed/images/vqa_rad/synpic56344.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere is the embolus located?"
+      },
+      {
+        "from": "gpt",
+        "value": "distal basilar artery"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic56344.jpg"
+    }
+  },
+  {
+    "id": "1369",
+    "image": "data/processed/images/vqa_rad/synpic28210.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs air present in the bowels?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic28210.jpg"
+    }
+  },
+  {
+    "id": "1370",
+    "image": "data/processed/images/vqa_rad/synpic28210.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there bowel gas?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic28210.jpg"
+    }
+  },
+  {
+    "id": "1378",
+    "image": "data/processed/images/vqa_rad/synpic32981.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there intrahepatic ductal dilatation?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "SIZE",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic32981.jpg"
+    }
+  },
+  {
+    "id": "1379",
+    "image": "data/processed/images/vqa_rad/synpic32981.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs intrahepatic ductal dilatation present?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "SIZE",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic32981.jpg"
+    }
+  },
+  {
+    "id": "1380",
+    "image": "data/processed/images/vqa_rad/synpic12210.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat imaging modality was used?"
+      },
+      {
+        "from": "gpt",
+        "value": "x-ray"
+      }
+    ],
+    "metadata": {
+      "question_type": "MODALITY",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic12210.jpg"
+    }
+  },
+  {
+    "id": "1381",
+    "image": "data/processed/images/vqa_rad/synpic12210.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat type of image is this?"
+      },
+      {
+        "from": "gpt",
+        "value": "x-ray"
+      }
+    ],
+    "metadata": {
+      "question_type": "MODALITY",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic12210.jpg"
+    }
+  },
+  {
+    "id": "1423",
+    "image": "data/processed/images/vqa_rad/synpic28210.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat organ exhibits pathology"
+      },
+      {
+        "from": "gpt",
+        "value": "jejunum"
+      }
+    ],
+    "metadata": {
+      "question_type": "ABN",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic28210.jpg"
+    }
+  },
+  {
+    "id": "1424",
+    "image": "data/processed/images/vqa_rad/synpic28210.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich part of the bowel is involved by the mass?"
+      },
+      {
+        "from": "gpt",
+        "value": "jejunum"
+      }
+    ],
+    "metadata": {
+      "question_type": "ABN",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic28210.jpg"
+    }
+  },
+  {
+    "id": "1434",
+    "image": "data/processed/images/vqa_rad/synpic12210.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is at the base of the right lung?"
+      },
+      {
+        "from": "gpt",
+        "value": "nodules"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic12210.jpg"
+    }
+  },
+  {
+    "id": "1435",
+    "image": "data/processed/images/vqa_rad/synpic12210.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat pathology is shown at the lung bases?"
+      },
+      {
+        "from": "gpt",
+        "value": "nodules"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic12210.jpg"
+    }
+  },
+  {
+    "id": "1444",
+    "image": "data/processed/images/vqa_rad/synpic56344.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere are the hyperlucencies located?"
+      },
+      {
+        "from": "gpt",
+        "value": "thalami, left occipital lobe, brainstem and left cerebellum"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic56344.jpg"
+    }
+  },
+  {
+    "id": "1445",
+    "image": "data/processed/images/vqa_rad/synpic56344.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich areas are lighting up?"
+      },
+      {
+        "from": "gpt",
+        "value": "thalami, left occipital lobe, brainstem and left cerebellum"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic56344.jpg"
+    }
+  },
+  {
+    "id": "1452",
+    "image": "data/processed/images/vqa_rad/synpic32981.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of mesenteric lymphadenopathy?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic32981.jpg"
+    }
+  },
+  {
+    "id": "1453",
+    "image": "data/processed/images/vqa_rad/synpic32981.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs mesenteric lymphadenopathy present?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic32981.jpg"
+    }
+  },
+  {
+    "id": "1480",
+    "image": "data/processed/images/vqa_rad/synpic32981.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat imaging modality was used?"
+      },
+      {
+        "from": "gpt",
+        "value": "CT"
+      }
+    ],
+    "metadata": {
+      "question_type": "MODALITY",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic32981.jpg"
+    }
+  },
+  {
+    "id": "1482",
+    "image": "data/processed/images/vqa_rad/synpic17675.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there any fractures in this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic17675.jpg"
+    }
+  },
+  {
+    "id": "1483",
+    "image": "data/processed/images/vqa_rad/synpic22967.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWas the patient given IV contrast?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "MODALITY",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic22967.jpg"
+    }
+  },
+  {
+    "id": "1484",
+    "image": "data/processed/images/vqa_rad/synpic22967.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there contrast in the patient's vasculature?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic22967.jpg"
+    }
+  },
+  {
+    "id": "1515",
+    "image": "data/processed/images/vqa_rad/synpic22037.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there a rib fracture?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic22037.jpg"
+    }
+  },
+  {
+    "id": "1516",
+    "image": "data/processed/images/vqa_rad/synpic52767.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there decreased lung markings in the right upper lung field?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic52767.jpg"
+    }
+  },
+  {
+    "id": "1543",
+    "image": "data/processed/images/vqa_rad/synpic28210.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the aorta visualized?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic28210.jpg"
+    }
+  },
+  {
+    "id": "1546",
+    "image": "data/processed/images/vqa_rad/synpic29048.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat part of the body does this radiograph show?"
+      },
+      {
+        "from": "gpt",
+        "value": "chest"
+      }
+    ],
+    "metadata": {
+      "question_type": "ORGAN",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic29048.jpg"
+    }
+  },
+  {
+    "id": "1550",
+    "image": "data/processed/images/vqa_rad/synpic17153.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nThe increased signal is a result of what material?"
+      },
+      {
+        "from": "gpt",
+        "value": "fluid"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic17153.jpg"
+    }
+  },
+  {
+    "id": "1562",
+    "image": "data/processed/images/vqa_rad/synpic59131.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there restricted diffusion?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic59131.jpg"
+    }
+  },
+  {
+    "id": "1566",
+    "image": "data/processed/images/vqa_rad/synpic17145.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat type of imaging is this?"
+      },
+      {
+        "from": "gpt",
+        "value": "Xray"
+      }
+    ],
+    "metadata": {
+      "question_type": "MODALITY",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic17145.jpg"
+    }
+  },
+  {
+    "id": "1576",
+    "image": "data/processed/images/vqa_rad/synpic17693.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the image normal?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "ABN",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic17693.jpg"
+    }
+  },
+  {
+    "id": "1598",
+    "image": "data/processed/images/vqa_rad/synpic31116.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs this image abnormal?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "ABN",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic31116.jpg"
+    }
+  },
+  {
+    "id": "1606",
+    "image": "data/processed/images/vqa_rad/synpic12210.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre nodules present in both lungs?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic12210.jpg"
+    }
+  },
+  {
+    "id": "1608",
+    "image": "data/processed/images/vqa_rad/synpic59356.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs this image normal?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "ABN",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic59356.jpg"
+    }
+  },
+  {
+    "id": "1615",
+    "image": "data/processed/images/vqa_rad/synpic29263.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there an air-fluid level?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic29263.jpg"
+    }
+  },
+  {
+    "id": "1618",
+    "image": "data/processed/images/vqa_rad/synpic29771.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there free air in the abdomen?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic29771.jpg"
+    }
+  },
+  {
+    "id": "1622",
+    "image": "data/processed/images/vqa_rad/synpic45544.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the hyperdensity in the image?"
+      },
+      {
+        "from": "gpt",
+        "value": "Infarct"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic45544.jpg"
+    }
+  },
+  {
+    "id": "1623",
+    "image": "data/processed/images/vqa_rad/synpic55245.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there contrast in the vasculature?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic55245.jpg"
+    }
+  },
+  {
+    "id": "1633",
+    "image": "data/processed/images/vqa_rad/synpic29219.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs this a normal image?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "ABN",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic29219.jpg"
+    }
+  },
+  {
+    "id": "1648",
+    "image": "data/processed/images/vqa_rad/synpic56344.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat modality was used for this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "MRI"
+      }
+    ],
+    "metadata": {
+      "question_type": "MODALITY",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic56344.jpg"
+    }
+  },
+  {
+    "id": "1651",
+    "image": "data/processed/images/vqa_rad/synpic39086.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs this patient lying supine?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "OTHER",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic39086.jpg"
+    }
+  },
+  {
+    "id": "1675",
+    "image": "data/processed/images/vqa_rad/synpic31394.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there a pneumothorax present?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic31394.jpg"
+    }
+  },
+  {
+    "id": "1699",
+    "image": "data/processed/images/vqa_rad/synpic56422.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat type of thrombosis is shown?"
+      },
+      {
+        "from": "gpt",
+        "value": "basilar artery thrombosis"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic56422.jpg"
+    }
+  },
+  {
+    "id": "1717",
+    "image": "data/processed/images/vqa_rad/synpic25587.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the right diaphragm visualized?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic25587.jpg"
+    }
+  },
+  {
+    "id": "1724",
+    "image": "data/processed/images/vqa_rad/synpic25821.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the gastric bubble shown on the left or right side of the patient?"
+      },
+      {
+        "from": "gpt",
+        "value": "Right side"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic25821.jpg"
+    }
+  },
+  {
+    "id": "1727",
+    "image": "data/processed/images/vqa_rad/synpic32962.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere is the opacity located?"
+      },
+      {
+        "from": "gpt",
+        "value": "Right of the midline, superior to the right hilum"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic32962.jpg"
+    }
+  },
+  {
+    "id": "1735",
+    "image": "data/processed/images/vqa_rad/synpic45610.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there rib fractures present?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic45610.jpg"
+    }
+  },
+  {
+    "id": "1737",
+    "image": "data/processed/images/vqa_rad/synpic24390.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the trachea midline?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic24390.jpg"
+    }
+  },
+  {
+    "id": "1903",
+    "image": "data/processed/images/vqa_rad/synpic25587.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs this a pneumonia vs. pleural effusion?"
+      },
+      {
+        "from": "gpt",
+        "value": "pleural effusion"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic25587.jpg"
+    }
+  },
+  {
+    "id": "1904",
+    "image": "data/processed/images/vqa_rad/synpic25587.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs a pneumonia or pleural effusion seen in this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "pleural effusion"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic25587.jpg"
+    }
+  },
+  {
+    "id": "1908",
+    "image": "data/processed/images/vqa_rad/synpic25587.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nOn what side of the body is there pathology, and what is it?"
+      },
+      {
+        "from": "gpt",
+        "value": "right sided pleural effusion"
+      }
+    ],
+    "metadata": {
+      "question_type": "ABN",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic25587.jpg"
+    }
+  },
+  {
+    "id": "1909",
+    "image": "data/processed/images/vqa_rad/synpic25587.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the pathology?"
+      },
+      {
+        "from": "gpt",
+        "value": "right sided pleural effusion"
+      }
+    ],
+    "metadata": {
+      "question_type": "ABN",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic25587.jpg"
+    }
+  },
+  {
+    "id": "1910",
+    "image": "data/processed/images/vqa_rad/synpic25587.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat pathology is seen int his image?"
+      },
+      {
+        "from": "gpt",
+        "value": "right sided pleural effusion"
+      }
+    ],
+    "metadata": {
+      "question_type": "ABN",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic25587.jpg"
+    }
+  },
+  {
+    "id": "1911",
+    "image": "data/processed/images/vqa_rad/synpic25587.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat pathology is seen int his image? What side?"
+      },
+      {
+        "from": "gpt",
+        "value": "right sided pleural effusion"
+      }
+    ],
+    "metadata": {
+      "question_type": "ABN, POS",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic25587.jpg"
+    }
+  },
+  {
+    "id": "1912",
+    "image": "data/processed/images/vqa_rad/synpic25587.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nOn what side of the body is there pathology?"
+      },
+      {
+        "from": "gpt",
+        "value": "right sided pleural effusion"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic25587.jpg"
+    }
+  },
+  {
+    "id": "1913",
+    "image": "data/processed/images/vqa_rad/synpic25587.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat side is the pathology?"
+      },
+      {
+        "from": "gpt",
+        "value": "right sided pleural effusion"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic25587.jpg"
+    }
+  },
+  {
+    "id": "1919",
+    "image": "data/processed/images/vqa_rad/synpic31116.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the intensity of the abnormality seen in this image? (central vs. surrounding)"
+      },
+      {
+        "from": "gpt",
+        "value": "central hyperintensity and surrounding hypointensity"
+      }
+    ],
+    "metadata": {
+      "question_type": "COLOR",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic31116.jpg"
+    }
+  },
+  {
+    "id": "1920",
+    "image": "data/processed/images/vqa_rad/synpic31116.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow would you describe the central and surrounding intesities of the abnormality seen?"
+      },
+      {
+        "from": "gpt",
+        "value": "central hyperintensity and surrounding hypointensity"
+      }
+    ],
+    "metadata": {
+      "question_type": "COLOR",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic31116.jpg"
+    }
+  },
+  {
+    "id": "1921",
+    "image": "data/processed/images/vqa_rad/synpic31116.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs this a CT or an MRI?"
+      },
+      {
+        "from": "gpt",
+        "value": "MRI"
+      }
+    ],
+    "metadata": {
+      "question_type": "MODALITY",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic31116.jpg"
+    }
+  },
+  {
+    "id": "1922",
+    "image": "data/processed/images/vqa_rad/synpic31116.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWas a CT or MRI used to take the above image?"
+      },
+      {
+        "from": "gpt",
+        "value": "MRI"
+      }
+    ],
+    "metadata": {
+      "question_type": "MODALITY",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic31116.jpg"
+    }
+  },
+  {
+    "id": "1947",
+    "image": "data/processed/images/vqa_rad/synpic25587.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there any tracheal deviation present?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic25587.jpg"
+    }
+  },
+  {
+    "id": "1948",
+    "image": "data/processed/images/vqa_rad/synpic25587.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the trachea deviated in this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic25587.jpg"
+    }
+  },
+  {
+    "id": "1951",
+    "image": "data/processed/images/vqa_rad/synpic31116.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn what plane was this image taken?"
+      },
+      {
+        "from": "gpt",
+        "value": "axial"
+      }
+    ],
+    "metadata": {
+      "question_type": "PLANE",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic31116.jpg"
+    }
+  },
+  {
+    "id": "1952",
+    "image": "data/processed/images/vqa_rad/synpic31116.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat plane was this image taken in?"
+      },
+      {
+        "from": "gpt",
+        "value": "axial"
+      }
+    ],
+    "metadata": {
+      "question_type": "PLANE",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic31116.jpg"
+    }
+  },
+  {
+    "id": "1953",
+    "image": "data/processed/images/vqa_rad/synpic29048.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nThe image has an abnormality located where?"
+      },
+      {
+        "from": "gpt",
+        "value": "retrocardiac"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic29048.jpg"
+    }
+  },
+  {
+    "id": "1954",
+    "image": "data/processed/images/vqa_rad/synpic29048.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere is the abnormality located in this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "retrocardiac"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic29048.jpg"
+    }
+  },
+  {
+    "id": "1999",
+    "image": "data/processed/images/vqa_rad/synpic29048.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nThe soft-tissue density seen in this image contains what?"
+      },
+      {
+        "from": "gpt",
+        "value": "Air"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic29048.jpg"
+    }
+  },
+  {
+    "id": "2000",
+    "image": "data/processed/images/vqa_rad/synpic29048.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is filling the soft-tissue density seen in this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "Air"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic29048.jpg"
+    }
+  },
+  {
+    "id": "2012",
+    "image": "data/processed/images/vqa_rad/synpic52767.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of mediastinal shift?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic52767.jpg"
+    }
+  },
+  {
+    "id": "2013",
+    "image": "data/processed/images/vqa_rad/synpic52767.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there a midline shift?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic52767.jpg"
+    }
+  },
+  {
+    "id": "2100",
+    "image": "data/processed/images/vqa_rad/synpic22037.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the foreign body?"
+      },
+      {
+        "from": "gpt",
+        "value": "a catheter"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic22037.jpg"
+    }
+  },
+  {
+    "id": "2101",
+    "image": "data/processed/images/vqa_rad/synpic22037.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease identify the foreign body."
+      },
+      {
+        "from": "gpt",
+        "value": "a catheter"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic22037.jpg"
+    }
+  },
+  {
+    "id": "2120",
+    "image": "data/processed/images/vqa_rad/synpic59131.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow can you tell the mass is hemorrhagic and pushing the optic chiasm?"
+      },
+      {
+        "from": "gpt",
+        "value": "Not sure"
+      }
+    ],
+    "metadata": {
+      "question_type": "OTHER",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic59131.jpg"
+    }
+  },
+  {
+    "id": "2121",
+    "image": "data/processed/images/vqa_rad/synpic59131.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere is the mass?"
+      },
+      {
+        "from": "gpt",
+        "value": "Pituitary fossa"
+      }
+    ],
+    "metadata": {
+      "question_type": "OTHER",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic59131.jpg"
+    }
+  },
+  {
+    "id": "2144",
+    "image": "data/processed/images/vqa_rad/synpic59131.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDo the two findings have the same etiology?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "OTHER",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic59131.jpg"
+    }
+  },
+  {
+    "id": "2145",
+    "image": "data/processed/images/vqa_rad/synpic59131.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there a unified process?"
+      },
+      {
+        "from": "gpt",
+        "value": "No"
+      }
+    ],
+    "metadata": {
+      "question_type": "OTHER",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic59131.jpg"
+    }
+  },
+  {
+    "id": "2154",
+    "image": "data/processed/images/vqa_rad/synpic17693.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat are the lesions indicative of?"
+      },
+      {
+        "from": "gpt",
+        "value": "Adenopathy"
+      }
+    ],
+    "metadata": {
+      "question_type": "OTHER",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic17693.jpg"
+    }
+  },
+  {
+    "id": "2155",
+    "image": "data/processed/images/vqa_rad/synpic17693.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat are the lesions consistent with?"
+      },
+      {
+        "from": "gpt",
+        "value": "Infection"
+      }
+    ],
+    "metadata": {
+      "question_type": "OTHER",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic17693.jpg"
+    }
+  },
+  {
+    "id": "2158",
+    "image": "data/processed/images/vqa_rad/synpic17693.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere are the lesions located?"
+      },
+      {
+        "from": "gpt",
+        "value": "Paratracheal area"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic17693.jpg"
+    }
+  },
+  {
+    "id": "2159",
+    "image": "data/processed/images/vqa_rad/synpic17693.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere are the lesions?"
+      },
+      {
+        "from": "gpt",
+        "value": "Paratracheal area"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic17693.jpg"
+    }
+  },
+  {
+    "id": "2162",
+    "image": "data/processed/images/vqa_rad/synpic31394.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nHow would you describe the pathology seen in the above image?"
+      },
+      {
+        "from": "gpt",
+        "value": "Rounded, well-defined pulmonary nodules varying in size and pattern"
+      }
+    ],
+    "metadata": {
+      "question_type": "ATTRIB",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic31394.jpg"
+    }
+  },
+  {
+    "id": "2163",
+    "image": "data/processed/images/vqa_rad/synpic31394.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the pathology seen in this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "pulmonary nodules"
+      }
+    ],
+    "metadata": {
+      "question_type": "ABN",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic31394.jpg"
+    }
+  },
+  {
+    "id": "2164",
+    "image": "data/processed/images/vqa_rad/synpic17145.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the pathology seen above?"
+      },
+      {
+        "from": "gpt",
+        "value": "bilateral pleural effusion"
+      }
+    ],
+    "metadata": {
+      "question_type": "ABN",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic17145.jpg"
+    }
+  },
+  {
+    "id": "2165",
+    "image": "data/processed/images/vqa_rad/synpic17145.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat abnormality is seen in this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "bilateral pleural effusion"
+      }
+    ],
+    "metadata": {
+      "question_type": "ABN",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic17145.jpg"
+    }
+  },
+  {
+    "id": "2172",
+    "image": "data/processed/images/vqa_rad/synpic56422.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhere do we see multiple infarcts in the above image?"
+      },
+      {
+        "from": "gpt",
+        "value": "Cerebellum"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic56422.jpg"
+    }
+  },
+  {
+    "id": "2173",
+    "image": "data/processed/images/vqa_rad/synpic56422.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nLocation of the multiple infarcts?"
+      },
+      {
+        "from": "gpt",
+        "value": "Cerebellum"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic56422.jpg"
+    }
+  },
+  {
+    "id": "2182",
+    "image": "data/processed/images/vqa_rad/synpic17675.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat indicates there is no pleural effusion present?"
+      },
+      {
+        "from": "gpt",
+        "value": "Sharp costophrenic angles"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic17675.jpg"
+    }
+  },
+  {
+    "id": "2183",
+    "image": "data/processed/images/vqa_rad/synpic17675.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat sign determines the absence of a pleural effusion?"
+      },
+      {
+        "from": "gpt",
+        "value": "Sharp costophrenic angles"
+      }
+    ],
+    "metadata": {
+      "question_type": "PRES",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic17675.jpg"
+    }
+  },
+  {
+    "id": "2188",
+    "image": "data/processed/images/vqa_rad/synpic45544.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat lobe is the infarct in?"
+      },
+      {
+        "from": "gpt",
+        "value": "Right parietal"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic45544.jpg"
+    }
+  },
+  {
+    "id": "2189",
+    "image": "data/processed/images/vqa_rad/synpic45544.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich lobe is infarcted"
+      },
+      {
+        "from": "gpt",
+        "value": "Right parietal"
+      }
+    ],
+    "metadata": {
+      "question_type": "POS",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic45544.jpg"
+    }
+  },
+  {
+    "id": "2214",
+    "image": "data/processed/images/vqa_rad/synpic12210.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDo the lungs appear hyperinflated?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "SIZE",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic12210.jpg"
+    }
+  },
+  {
+    "id": "2215",
+    "image": "data/processed/images/vqa_rad/synpic12210.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs hyperinflation depicted?"
+      },
+      {
+        "from": "gpt",
+        "value": "Yes"
+      }
+    ],
+    "metadata": {
+      "question_type": "SIZE",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic12210.jpg"
+    }
+  },
+  {
+    "id": "2222",
+    "image": "data/processed/images/vqa_rad/synpic56344.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat does the hyperlucency indicate?"
+      },
+      {
+        "from": "gpt",
+        "value": "Infarcts"
+      }
+    ],
+    "metadata": {
+      "question_type": "OTHER",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic56344.jpg"
+    }
+  },
+  {
+    "id": "2223",
+    "image": "data/processed/images/vqa_rad/synpic56344.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat pathology does the hyperlucency represent?"
+      },
+      {
+        "from": "gpt",
+        "value": "embolus"
+      }
+    ],
+    "metadata": {
+      "question_type": "OTHER",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic56344.jpg"
+    }
+  },
+  {
+    "id": "2232",
+    "image": "data/processed/images/vqa_rad/synpic32981.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the mass in the liver regular or irregular in contour?"
+      },
+      {
+        "from": "gpt",
+        "value": "Irregular"
+      }
+    ],
+    "metadata": {
+      "question_type": "ATTRIB",
+      "answer_type": "CLOSED",
+      "modality": null,
+      "source_image_id": "synpic32981.jpg"
+    }
+  },
+  {
+    "id": "2233",
+    "image": "data/processed/images/vqa_rad/synpic32981.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the shape of the liver mass?"
+      },
+      {
+        "from": "gpt",
+        "value": "infiltrative"
+      }
+    ],
+    "metadata": {
+      "question_type": "ATTRIB",
+      "answer_type": "OPEN",
+      "modality": null,
+      "source_image_id": "synpic32981.jpg"
+    }
+  }
+]

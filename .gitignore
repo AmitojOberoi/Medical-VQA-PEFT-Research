@@ -1,21 +1,27 @@
+# Python
 __pycache__/
 *.py[cod]
 .venv/
 .env
 
-# Dataset files
+# Raw and processed datasets
 data/raw/*
 data/processed/*
+!data/processed/llava_format/
+data/processed/llava_format/*
+!data/processed/llava_format/*.json
 data/splits/*
 
 # Model checkpoints and logs
 results/checkpoints/*
 results/logs/*
+results/metrics/*
+results/graphs/*
 
+# Generated packages
+medical_vqa_colab.zip
+colab_package/
+
+# Notebooks and OS files
 .ipynb_checkpoints/
 .DS_Store
-# Generated results
-results/metrics/
-results/graphs/
-results/logs/
-results/checkpoints/

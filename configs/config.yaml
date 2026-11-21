@@ -1,126 +1,144 @@
 
-# ==================================================
-# MEDICAL VQA PEFT RESEARCH CONFIGURATION
-# ==================================================
+# ============================================================
+# MEDICAL VQA PEFT RESEARCH
+# Final experimental configuration: LLaVA-Med + LoRA
+# ============================================================
 
 project:
   name: "Medical-VQA-PEFT-Research"
   seed: 42
   device: "auto"
 
-# --------------------------------------------------
-# PATHS
-# --------------------------------------------------
+# ------------------------------------------------------------
+# PROJECT PATHS
+# ------------------------------------------------------------
 
 paths:
   raw_data: "data/raw"
   processed_data: "data/processed"
-  splits: "data/splits"
+  llava_format: "data/processed/llava_format"
   checkpoints: "results/checkpoints"
   metrics: "results/metrics"
+  predictions: "results/predictions"
   logs: "results/logs"
   graphs: "results/graphs"
 
-# --------------------------------------------------
+# ------------------------------------------------------------
 # DATASETS
-# --------------------------------------------------
+# ------------------------------------------------------------
 
 datasets:
-  VQA_RAD:
-    path: "data/raw/VQA_RAD"
-    enabled: true
-
   SLAKE:
-    path: "data/raw/SLAKE"
     enabled: true
+    train_file: "slake_train.json"
+    validation_file: "slake_validation.json"
+    test_file: "slake_test.json"
+    image_dir: "data/processed/images/slake"
+    evaluation_samples: 500
+
+  VQA_RAD:
+    enabled: true
+    train_file: "vqa_rad_train.json"
+    validation_file: "vqa_rad_validation.json"
+    test_file: "vqa_rad_test.json"
+    image_dir: "data/processed/images/vqa_rad"
+    evaluation_samples: 241
 
   PathVQA:
-    path: "data/raw/PathVQA"
     enabled: true
+    train_file: "pathvqa_train.json"
+    validation_file: "pathvqa_validation.json"
+    test_file: "pathvqa_test.json"
+    image_dir: "data/processed/images/pathvqa"
+    evaluation_samples: 500
 
-# --------------------------------------------------
-# BASE VISION-LANGUAGE MODEL
-# --------------------------------------------------
+# ------------------------------------------------------------
+# BASE MODEL
+# ------------------------------------------------------------
 
 model:
-  model_id: "Salesforce/blip2-opt-2.7b"
-  model_family: "blip2"
-  architecture: "Blip2ForConditionalGeneration"
+  model_id: "microsoft/llava-med-v1.5-mistral-7b"
+  model_family: "llava"
+  architecture: "LlavaForConditionalGeneration"
   processor: "AutoProcessor"
 
-  load_in_4bit: false
   torch_dtype: "float16"
+  device_map: "auto"
+  trust_remote_code: false
 
-  max_new_tokens: 30
-  gradient_checkpointing: true
+  max_length: 128
+  max_new_tokens: 64
 
-# --------------------------------------------------
+# ------------------------------------------------------------
 # TRAINING
-# --------------------------------------------------
+# ------------------------------------------------------------
 
 training:
   num_train_epochs: 1
-  learning_rate: 0.0002
-
   per_device_train_batch_size: 1
   per_device_eval_batch_size: 1
-
   gradient_accumulation_steps: 8
 
-  max_length: 128
+  learning_rate: 0.0002
   warmup_ratio: 0.03
   weight_decay: 0.01
 
   logging_steps: 10
-  gradient_checkpointing: true
+  save_strategy: "epoch"
+  evaluation_strategy: "epoch"
 
-# --------------------------------------------------
-# PEFT METHODS
-# --------------------------------------------------
+  fp16: true
+  bf16: false
+  gradient_checkpointing: false
+
+# ------------------------------------------------------------
+# PEFT — LORA ONLY
+# ------------------------------------------------------------
 
 peft:
+  method: "lora"
+
   lora:
     enabled: true
     r: 8
     alpha: 16
     dropout: 0.05
+    target_modules:
+      - "q_proj"
+      - "v_proj"
+    bias: "none"
+    task_type: "CAUSAL_LM"
 
-  qlora:
-    enabled: true
-    r: 8
-    alpha: 16
-    dropout: 0.05
-    bits: 4
-
-  prompt_tuning:
-    enabled: true
-    num_virtual_tokens: 20
-    initialization: "random"
-
-# --------------------------------------------------
+# ------------------------------------------------------------
 # EVALUATION
-# --------------------------------------------------
+# ------------------------------------------------------------
 
 evaluation:
   batch_size: 1
+  max_samples: null
 
   metrics:
-    - accuracy
     - exact_match
-    - f1
+    - accuracy
+    - token_f1
+    - bleu
+    - rouge_l
 
-# --------------------------------------------------
+  save_predictions: true
+
+# ------------------------------------------------------------
 # EXPERIMENTS
-# --------------------------------------------------
+# ------------------------------------------------------------
 
 experiments:
-  methods:
-    - lora
-    - qlora
-    - prompt_tuning
+  method: "lora"
 
-  compare_accuracy: true
+  datasets:
+    - "SLAKE"
+    - "VQA_RAD"
+    - "PathVQA"
+
+  compare_datasets: true
   compare_training_time: true
   compare_memory_usage: true
   compare_trainable_parameters: true
-

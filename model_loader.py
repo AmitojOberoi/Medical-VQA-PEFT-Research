@@ -2,13 +2,12 @@
 """
 model_loader.py
 
-Loads the BLIP-2 vision-language model and processor.
+Loads the LLaVA-Med base model and optional LoRA adapter.
 
-Supports:
-    - Standard FP16 loading
-    - 4-bit loading for QLoRA experiments
-
-Actual model loading is intended for Google Colab.
+Final project scope:
+    - LLaVA-Med 7B
+    - LoRA fine-tuning
+    - FP16 inference where CUDA is available
 """
 
 from pathlib import Path
@@ -24,20 +23,29 @@ CONFIG_PATH = PROJECT_ROOT / "configs" / "config.yaml"
 def load_model_config(config_path=CONFIG_PATH):
     """Load and validate the project configuration."""
 
+    config_path = Path(config_path)
+
+    if not config_path.is_absolute():
+        config_path = PROJECT_ROOT / config_path
+
     if not config_path.is_file():
         raise FileNotFoundError(
-            f"Configuration file not found: {config_path}"
+            f"Configuration not found: {config_path}"
         )
 
     with config_path.open("r", encoding="utf-8") as file:
         config = yaml.safe_load(file)
 
-    if not isinstance(config, dict):
-        raise ValueError("Configuration must be a YAML mapping.")
+    required = [
+        "project",
+        "model",
+        "training",
+        "peft",
+        "datasets",
+        "paths",
+    ]
 
-    required_sections = ["project", "model", "training", "peft"]
-
-    for section in required_sections:
+    for section in required:
         if section not in config:
             raise ValueError(
                 f"Missing configuration section: {section}"
@@ -45,141 +53,151 @@ def load_model_config(config_path=CONFIG_PATH):
 
     model_config = config["model"]
 
-    if not model_config.get("model_id"):
-        raise ValueError("model.model_id is not configured.")
+    if model_config.get("model_family") != "llava":
+        raise ValueError("Only LLaVA model family is supported.")
 
-    if model_config.get("model_family") != "blip2":
-        raise ValueError("This loader currently supports BLIP-2 only.")
+    if config["peft"].get("method") != "lora":
+        raise ValueError("Final project supports LoRA only.")
+
+    if not model_config.get("model_id"):
+        raise ValueError("Missing model.model_id.")
 
     return config
 
 
 def get_torch_dtype(dtype_name):
-    """Convert a configuration string into a PyTorch dtype."""
+    """Convert a dtype string to a PyTorch dtype."""
 
-    supported_dtypes = {
+    supported = {
         "float16": torch.float16,
         "float32": torch.float32,
         "bfloat16": torch.bfloat16,
     }
 
-    if dtype_name not in supported_dtypes:
+    if dtype_name not in supported:
         raise ValueError(
             f"Unsupported torch dtype: {dtype_name}"
         )
 
-    return supported_dtypes[dtype_name]
+    if dtype_name == "bfloat16" and not torch.cuda.is_available():
+        raise RuntimeError(
+            "BFloat16 configuration requires a compatible GPU."
+        )
+
+    return supported[dtype_name]
 
 
-def load_blip2_model(config=None, quantized=False):
+def get_device():
+    """Detect the available computing device."""
+
+    return "cuda" if torch.cuda.is_available() else "cpu"
+
+
+def load_llava_model(
+    config=None,
+    adapter_path=None,
+    device_map=None,
+):
     """
-    Load BLIP-2 and its image-text processor.
-
-    Args:
-        config: Project configuration dictionary.
-        quantized: Load the language model in 4-bit mode.
+    Load the LLaVA-Med base model and optionally a LoRA adapter.
 
     Returns:
-        model, processor
+        tokenizer, model, image_processor, context_length
     """
 
     if config is None:
         config = load_model_config()
 
     model_config = config["model"]
-
     model_id = model_config["model_id"]
 
-    # Quantized training requires a supported CUDA environment.
-    if quantized and not torch.cuda.is_available():
-        raise RuntimeError(
-            "4-bit QLoRA loading requires a supported CUDA GPU. "
-            "Run this experiment in Google Colab."
+    if device_map is None:
+        device_map = (
+            model_config.get("device_map", "auto")
+            if torch.cuda.is_available()
+            else "cpu"
         )
 
     try:
-        from transformers import (
-            AutoProcessor,
-            Blip2ForConditionalGeneration,
-        )
+        from llava.model.builder import load_pretrained_model
+        from llava.mm_utils import get_model_name_from_path
 
     except ImportError as error:
         raise ImportError(
-            "Transformers is required. "
-            "Install it using: pip install transformers"
+            "Official LLaVA code is unavailable. "
+            "Install the LLaVA repository and its dependencies "
+            "before loading the model."
         ) from error
 
-    dtype = get_torch_dtype(
-        model_config.get("torch_dtype", "float16")
+    model_name = get_model_name_from_path(model_id)
+
+    print("Loading LLaVA-Med base model...")
+    print("Model:", model_id)
+    print("Device:", device_map)
+
+    tokenizer, model, image_processor, context_length = (
+        load_pretrained_model(
+            model_path=model_id,
+            model_base=None,
+            model_name=model_name,
+            device_map=device_map,
+        )
     )
 
-    processor = AutoProcessor.from_pretrained(model_id)
+    if adapter_path is not None:
+        adapter_path = Path(adapter_path)
 
-    loading_arguments = {
-        "torch_dtype": dtype,
-        "low_cpu_mem_usage": True,
-    }
+        if not adapter_path.is_dir():
+            raise FileNotFoundError(
+                f"LoRA adapter directory not found: {adapter_path}"
+            )
 
-    if torch.cuda.is_available():
-        loading_arguments["device_map"] = "auto"
+        if not (adapter_path / "adapter_config.json").is_file():
+            raise FileNotFoundError(
+                f"adapter_config.json missing in {adapter_path}"
+            )
 
-    # Configure 4-bit quantization for QLoRA.
-    if quantized:
         try:
-            from transformers import BitsAndBytesConfig
+            from peft import PeftModel
 
         except ImportError as error:
             raise ImportError(
-                "BitsAndBytes support is unavailable. "
-                "Install a compatible bitsandbytes build "
-                "in Google Colab."
+                "PEFT is required to load the LoRA adapter."
             ) from error
 
-        quantization_config = BitsAndBytesConfig(
-            load_in_4bit=True,
-            bnb_4bit_quant_type="nf4",
-            bnb_4bit_use_double_quant=True,
-            bnb_4bit_compute_dtype=dtype,
+        print("Loading LoRA adapter:", adapter_path)
+
+        model = PeftModel.from_pretrained(
+            model,
+            str(adapter_path),
+            is_trainable=False,
         )
 
-        loading_arguments["quantization_config"] = (
-            quantization_config
-        )
+    model.eval()
 
-    model = Blip2ForConditionalGeneration.from_pretrained(
-        model_id,
-        **loading_arguments,
-    )
-
-    if model_config.get("gradient_checkpointing", False):
-        model.gradient_checkpointing_enable()
-
-    return model, processor
+    return tokenizer, model, image_processor, context_length
 
 
 def count_parameters(model):
-    """Return total and trainable parameter counts."""
+    """Count total and trainable model parameters."""
 
-    total_parameters = sum(
+    total = sum(
         parameter.numel()
         for parameter in model.parameters()
     )
 
-    trainable_parameters = sum(
+    trainable = sum(
         parameter.numel()
         for parameter in model.parameters()
         if parameter.requires_grad
     )
 
-    trainable_percentage = (
-        100 * trainable_parameters / total_parameters
-        if total_parameters else 0
-    )
-
     return {
-        "total_parameters": total_parameters,
-        "trainable_parameters": trainable_parameters,
-        "trainable_percentage": trainable_percentage,
+        "total_parameters": total,
+        "trainable_parameters": trainable,
+        "trainable_percentage": (
+            100 * trainable / total if total else 0
+        ),
     }
 
 
@@ -190,5 +208,6 @@ if __name__ == "__main__":
     print("Model configuration validated.")
     print("Model:", configuration["model"]["model_id"])
     print("Architecture:", configuration["model"]["architecture"])
-    print("Device:", "CUDA" if torch.cuda.is_available() else "CPU")
+    print("PEFT method:", configuration["peft"]["method"])
+    print("Device:", get_device())
     print("Model weights have NOT been downloaded.")
