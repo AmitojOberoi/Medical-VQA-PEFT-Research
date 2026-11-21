@@ -1,8 +1,16 @@
 
+# ==================================================
+# MEDICAL VQA PEFT RESEARCH CONFIGURATION
+# ==================================================
+
 project:
   name: "Medical-VQA-PEFT-Research"
   seed: 42
   device: "auto"
+
+# --------------------------------------------------
+# PATHS
+# --------------------------------------------------
 
 paths:
   raw_data: "data/raw"
@@ -12,6 +20,10 @@ paths:
   metrics: "results/metrics"
   logs: "results/logs"
   graphs: "results/graphs"
+
+# --------------------------------------------------
+# DATASETS
+# --------------------------------------------------
 
 datasets:
   VQA_RAD:
@@ -26,29 +38,80 @@ datasets:
     path: "data/raw/PathVQA"
     enabled: true
 
+# --------------------------------------------------
+# BASE VISION-LANGUAGE MODEL
+# --------------------------------------------------
+
 model:
-  model_id: null
-  model_family: null
+  model_id: "Salesforce/blip2-opt-2.7b"
+  model_family: "blip2"
+  architecture: "Blip2ForConditionalGeneration"
+  processor: "AutoProcessor"
+
   load_in_4bit: false
+  torch_dtype: "float16"
+
+  max_new_tokens: 30
+  gradient_checkpointing: true
+
+# --------------------------------------------------
+# TRAINING
+# --------------------------------------------------
 
 training:
   num_train_epochs: 1
-  learning_rate: 0.00002
+  learning_rate: 0.0002
+
   per_device_train_batch_size: 1
   per_device_eval_batch_size: 1
+
   gradient_accumulation_steps: 8
-  max_length: 512
+
+  max_length: 128
   warmup_ratio: 0.03
   weight_decay: 0.01
+
   logging_steps: 10
   gradient_checkpointing: true
 
+# --------------------------------------------------
+# PEFT METHODS
+# --------------------------------------------------
+
+peft:
+  lora:
+    enabled: true
+    r: 8
+    alpha: 16
+    dropout: 0.05
+
+  qlora:
+    enabled: true
+    r: 8
+    alpha: 16
+    dropout: 0.05
+    bits: 4
+
+  prompt_tuning:
+    enabled: true
+    num_virtual_tokens: 20
+    initialization: "random"
+
+# --------------------------------------------------
+# EVALUATION
+# --------------------------------------------------
+
 evaluation:
   batch_size: 1
+
   metrics:
     - accuracy
     - exact_match
     - f1
+
+# --------------------------------------------------
+# EXPERIMENTS
+# --------------------------------------------------
 
 experiments:
   methods:
@@ -60,3 +123,4 @@ experiments:
   compare_training_time: true
   compare_memory_usage: true
   compare_trainable_parameters: true
+
