@@ -1,0 +1,15 @@
+﻿adapters:
+  vqa_rad:
+    name: "VQA-RAD"
+    path: "results/adapters/VQA_RAD"
+    base_model: "microsoft/llava-med-v1.5-mistral-7b"
+
+  slake:
+    name: "SLAKE"
+    path: "results/adapters/SLAKE"
+    base_model: "microsoft/llava-med-v1.5-mistral-7b"
+
+  pathvqa:
+    name: "PathVQA"
+    path: "results/adapters/PathVQA"
+    base_model: "microsoft/llava-med-v1.5-mistral-7b"
