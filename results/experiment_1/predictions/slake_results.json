@@ -1,0 +1,7429 @@
+[
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "CT",
+    "prediction": "CT",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the main organ in the image?",
+    "ground_truth": "Lung, Spinal Cord",
+    "prediction": "Lung",
+    "exact_match": 0,
+    "token_f1": 0.5
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain liver?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain lung?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain heart?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "Lung Cancer",
+    "prediction": "Lung Cancer",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is the lung healthy?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is/are the abnormality located?",
+    "ground_truth": "Left Lung, Right",
+    "prediction": "Right Lung, Left",
+    "exact_match": 0,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which is the biggest in this image,lung,liver or heart?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "CT",
+    "prediction": "CT",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the main organ in the image?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain liver?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain lung?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "Lung Cancer",
+    "prediction": "Lung Cancer",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is the lung healthy?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is/are the abnormality located?",
+    "ground_truth": "Left Lung, Right",
+    "prediction": "Right Lung, Left",
+    "exact_match": 0,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which is the biggest in this image,lung,liver or heart?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "CT",
+    "prediction": "CT",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the main organ in the image?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain liver?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain lung?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain heart?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "Lung Cancer",
+    "prediction": "Lung Cancer",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is the lung healthy?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is/are the abnormality located?",
+    "ground_truth": "Right Lung, Left",
+    "prediction": "Right Lung, Left",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "X-Ray",
+    "prediction": "X-Ray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "Cardiomegaly",
+    "prediction": "Pneumonia",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Where is/are the abnormality located?",
+    "ground_truth": "Center",
+    "prediction": "Left Lung, Right",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Are there abnormalities in this image?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which organ is abnormal, heart or lung?",
+    "ground_truth": "Heart",
+    "prediction": "Lung",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "MRI",
+    "prediction": "MRI",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Abdomen",
+    "prediction": "Abdomen",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the mr weighting in this image?",
+    "ground_truth": "T2",
+    "prediction": "T2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is there any abnormality in the spleen?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the liver look normal?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain liver?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain kidney?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain spleen?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "X-Ray",
+    "prediction": "X-Ray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Are there abnormalities in this image?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "Pneumonia",
+    "prediction": "Pneumonia",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is/are the abnormality located?",
+    "ground_truth": "Left Lung, Lower Right",
+    "prediction": "Left Lung, Right",
+    "exact_match": 0,
+    "token_f1": 0.8571428571428571
+  },
+  {
+    "question": "Does the lung look healthy?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "X-Ray",
+    "prediction": "X-Ray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Are there abnormalities in this image?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "Cardiomegaly",
+    "prediction": "Pneumonia",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Where is/are the abnormality located?",
+    "ground_truth": "Center",
+    "prediction": "Left Lung, Right",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Which organ is abnormal, heart or lung?",
+    "ground_truth": "Heart",
+    "prediction": "Lung",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "X-Ray",
+    "prediction": "X-Ray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Are there abnormalities in this image?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "Cardiomegaly",
+    "prediction": "Pneumonia",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Where is/are the abnormality located?",
+    "ground_truth": "Center",
+    "prediction": "Left Lung, Right",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Which organ is abnormal, heart or lung?",
+    "ground_truth": "Heart",
+    "prediction": "Lung",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "X-Ray",
+    "prediction": "X-Ray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Are there abnormalities in this image?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "Atelectasis, Mass",
+    "prediction": "Pneumonia",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Where is/are the abnormality located?",
+    "ground_truth": "Right Lung",
+    "prediction": "Left Lung, Right",
+    "exact_match": 0,
+    "token_f1": 0.8
+  },
+  {
+    "question": "Is the lung healthy?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which organ is abnormal, heart or lung?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "X-Ray",
+    "prediction": "X-Ray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Are there abnormalities in this image?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "Cardiomegaly",
+    "prediction": "Pneumonia",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Where is/are the abnormality located?",
+    "ground_truth": "Center",
+    "prediction": "Center",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which organ is abnormal, heart or lung?",
+    "ground_truth": "Heart",
+    "prediction": "Lung",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "X-Ray",
+    "prediction": "X-Ray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Are there abnormalities in this image?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "Cardiomegaly",
+    "prediction": "Pneumonia",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Where is/are the abnormality located?",
+    "ground_truth": "Center",
+    "prediction": "Center",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which organ is abnormal, heart or lung?",
+    "ground_truth": "Heart",
+    "prediction": "Lung",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "X-Ray",
+    "prediction": "X-Ray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does this image look normal?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "Nodule",
+    "prediction": "Pneumonia",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Where is/are the abnormality located?",
+    "ground_truth": "Left Lung, Right",
+    "prediction": "Left Lung, Right",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is the lung healthy?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which organ is abnormal, heart or lung?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "X-Ray",
+    "prediction": "X-Ray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "Nodule",
+    "prediction": "Pneumonia",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Where is/are the abnormality located?",
+    "ground_truth": "Right Lung, Left",
+    "prediction": "Left Lung, Right",
+    "exact_match": 0,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does this image look normal?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is the lung healthy?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which organ is abnormal, heart or lung?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "X-Ray",
+    "prediction": "X-Ray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does this image look normal?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "Atelectasis",
+    "prediction": "Pneumonia",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Where is/are the abnormality located?",
+    "ground_truth": "Right Lung, Lower Left",
+    "prediction": "Left Lung, Right",
+    "exact_match": 0,
+    "token_f1": 0.8571428571428571
+  },
+  {
+    "question": "Is the lung healthy?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which organ is abnormal, heart or lung?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "X-Ray",
+    "prediction": "X-Ray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "Pneumonia",
+    "prediction": "Pneumonia",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is/are the abnormality located?",
+    "ground_truth": "Left Lung, Right",
+    "prediction": "Left Lung, Right",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is the lung healthy?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Are there abnormalities in this image?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which organ is abnormal, heart or lung?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "MRI",
+    "prediction": "MRI",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Abdomen",
+    "prediction": "Abdomen",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the mr weighting in this image?",
+    "ground_truth": "T2",
+    "prediction": "T2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many kidneys are there in this image?",
+    "ground_truth": "1",
+    "prediction": "0",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain liver?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain kidney?",
+    "ground_truth": "Yes",
+    "prediction": "No",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the picture contain spleen?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the liver look normal ?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the kidney look abnormal?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Do the spleen look abnormal?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "X-Ray",
+    "prediction": "X-Ray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does this image look abnormal?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "Pneumothorax",
+    "prediction": "Pneumonia",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Where is/are the abnormality located?",
+    "ground_truth": "Right Lung, Left",
+    "prediction": "Center",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Is the lung healthy?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Are there abnormalities in this image?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which organ is abnormal, heart or lung?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "CT",
+    "prediction": "CT",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Abdomen",
+    "prediction": "Abdomen",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain liver?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain kidney?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain spleen?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the picture contain lung?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain heart?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the liver?",
+    "ground_truth": "Left",
+    "prediction": "Left",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many kidneys in this image?",
+    "ground_truth": "2",
+    "prediction": "2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is the liver healthy?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which is bigger in this image, kidney or liver?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the organ located in the lower right corner of the body in this image?",
+    "ground_truth": "Left Kidney",
+    "prediction": "Small Bowel",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What is the organ on the left side of this image?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the scanning plane of this image?",
+    "ground_truth": "Transverse  Plane",
+    "prediction": "Transverse  Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "CT",
+    "prediction": "CT",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Abdomen",
+    "prediction": "Abdomen",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does this image look normal?",
+    "ground_truth": "Yes",
+    "prediction": "No",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "How many organs are there in this image?",
+    "ground_truth": "4",
+    "prediction": "5",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain liver?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain kidney?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain spleen?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain lung?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain heart?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the liver?",
+    "ground_truth": "Top",
+    "prediction": "Left",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Is the liver healthy?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which is the biggest in this image, lung,heart or liver?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the rightmost organ in this image?",
+    "ground_truth": "Left Lung",
+    "prediction": "Left Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the organ on the left side of this image?",
+    "ground_truth": "Right Lung",
+    "prediction": "Right Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the scanning plane of this image?",
+    "ground_truth": "Transverse  Plane",
+    "prediction": "Transverse  Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "CT",
+    "prediction": "CT",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Abdomen",
+    "prediction": "Abdomen",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain liver?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain kidney?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain spleen?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain lung?",
+    "ground_truth": "Yes",
+    "prediction": "No",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the picture contain heart?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the liver?",
+    "ground_truth": "Left",
+    "prediction": "Left",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many kidneys in this image?",
+    "ground_truth": "0",
+    "prediction": "0",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which is the biggest in this image, spleen,lung, or liver?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the organ on the left side of this image?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the organ on the lower right corner of the body in this image?",
+    "ground_truth": "Spleen",
+    "prediction": "Spleen",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the scanning plane of this image?",
+    "ground_truth": "Transverse  Plane",
+    "prediction": "Transverse  Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "CT",
+    "prediction": "CT",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Abdomen",
+    "prediction": "Abdomen",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain liver?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain kidney?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the picture contain spleen?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "Liver Cancer",
+    "prediction": "Liver Cancer",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the liver?",
+    "ground_truth": "Left and top",
+    "prediction": "Left",
+    "exact_match": 0,
+    "token_f1": 0.5
+  },
+  {
+    "question": "Where is/are the abnormality located?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many kidneys in this image?",
+    "ground_truth": "0",
+    "prediction": "0",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which is bigger in this image, kidney or spleen?",
+    "ground_truth": "Liver",
+    "prediction": "Spleen",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What is the organ on the left side of this image?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does this image look normal?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain lung?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain heart?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the rightmost organ in this image?",
+    "ground_truth": "Spleen",
+    "prediction": "Spleen",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the organ on the top of the body in this image?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the scanning plane of this image?",
+    "ground_truth": "Transverse  Plane",
+    "prediction": "Transverse  Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "CT",
+    "prediction": "CT",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Abdomen",
+    "prediction": "Abdomen",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain liver?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain kidney?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain spleen?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the liver?",
+    "ground_truth": "Left and top",
+    "prediction": "Left",
+    "exact_match": 0,
+    "token_f1": 0.5
+  },
+  {
+    "question": "Where is/are the abnormality located?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many kidneys in this image?",
+    "ground_truth": "2",
+    "prediction": "0",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does this image look normal?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain lung?",
+    "ground_truth": "Yes",
+    "prediction": "No",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the picture contain heart?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which is bigger in this image, liver or spleen?",
+    "ground_truth": "Spleen",
+    "prediction": "Liver",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What is the organ on the lower right corner of this image?",
+    "ground_truth": "Spleen",
+    "prediction": "Spleen",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the organ on the top of the body in this image?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the scanning plane of this image?",
+    "ground_truth": "Transverse  Plane",
+    "prediction": "Transverse  Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "MRI",
+    "prediction": "MRI",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Abdomen",
+    "prediction": "Abdomen",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the mr weighting in this image?",
+    "ground_truth": "T1",
+    "prediction": "T2",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "How many kidneys are there in this image?",
+    "ground_truth": "0",
+    "prediction": "0",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain liver?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain kidney?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain spleen?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "MRI",
+    "prediction": "MRI",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Abdomen",
+    "prediction": "Chest",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What is the mr weighting in this image?",
+    "ground_truth": "T1",
+    "prediction": "T1",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain liver?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain kidney?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain spleen?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the liver?",
+    "ground_truth": "Not seen",
+    "prediction": "Left",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "How many kidneys in this image?",
+    "ground_truth": "0",
+    "prediction": "0",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the organ on the left side of this image?",
+    "ground_truth": "Lung",
+    "prediction": "Right Lung",
+    "exact_match": 0,
+    "token_f1": 0.6666666666666666
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "CT",
+    "prediction": "CT",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Abdomen",
+    "prediction": "Abdomen",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does this image look normal?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain liver?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain kidney?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain spleen?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain lung?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain heart?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "Liver Cancer",
+    "prediction": "Liver Cancer",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the liver?",
+    "ground_truth": "Upper Left",
+    "prediction": "Left",
+    "exact_match": 0,
+    "token_f1": 0.6666666666666666
+  },
+  {
+    "question": "Where is/are the abnormality located?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many kidneys in this image?",
+    "ground_truth": "0",
+    "prediction": "0",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which is bigger in this image, liver or heart?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What organ is the gray part on the left of the image?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What organ is the black part on the left of the image?",
+    "ground_truth": "Right Lung",
+    "prediction": "Right Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the organ on the top of the body in this image?",
+    "ground_truth": "Heart and Liver",
+    "prediction": "Heart",
+    "exact_match": 0,
+    "token_f1": 0.5
+  },
+  {
+    "question": "What is the scanning plane of this image?",
+    "ground_truth": "Transverse  Plane",
+    "prediction": "Transverse  Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What are the white points in the black part of the body?",
+    "ground_truth": "Pulmonary bronchus",
+    "prediction": "Lung",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Which is the kidney?",
+    "ground_truth": "Symmetrical to the bone marrow",
+    "prediction": "Liver",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "CT",
+    "prediction": "CT",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Abdomen",
+    "prediction": "Abdomen",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does this image look normal?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain liver?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain kidney?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain spleen?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain lung?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain heart?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "Liver Cancer",
+    "prediction": "Liver Cancer",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is/are the abnormality located?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many kidneys in this image?",
+    "ground_truth": "2",
+    "prediction": "2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which is bigger in this image, kidney or spleen?",
+    "ground_truth": "Spleen",
+    "prediction": "Spleen",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What organ is the gray part on the left of the image?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the scanning plane of this image?",
+    "ground_truth": "Transverse  Plane",
+    "prediction": "Transverse  Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the shape of the kidney in the picture?",
+    "ground_truth": "Irregular",
+    "prediction": "Irregular",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which is the kidney?",
+    "ground_truth": "Symmetrical to the bone marrow",
+    "prediction": "Left",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "CT",
+    "prediction": "CT",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Abdomen",
+    "prediction": "Abdomen",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does this image look normal?",
+    "ground_truth": "Yes",
+    "prediction": "No",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain liver?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain kidney?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain spleen?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the picture contain lung?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain heart?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Where is the liver?",
+    "ground_truth": "Left",
+    "prediction": "Left",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What organ is the gray part on the left of the image?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What organ is the black part on the left of the image?",
+    "ground_truth": "Right Lung",
+    "prediction": "Right Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the scanning plane of this image?",
+    "ground_truth": "Transverse  Plane",
+    "prediction": "Transverse  Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What are the white spots in the black part of the lower part of body?",
+    "ground_truth": "Pulmonary bronchus",
+    "prediction": "Liver",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "CT",
+    "prediction": "CT",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Abdomen",
+    "prediction": "Abdomen",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Small Bowel",
+    "prediction": "Liver",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the picture contain liver?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the picture contain kidney?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain spleen?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the picture contain lung?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain heart?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many kidneys in this image?",
+    "ground_truth": "2",
+    "prediction": "2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the rightmost organ in this image?",
+    "ground_truth": "Large Bowel",
+    "prediction": "Left Kidney",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What organ is the gray part on the left of the image?",
+    "ground_truth": "Large Bowel",
+    "prediction": "Liver",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What is the organ on the top of the body in this image?",
+    "ground_truth": "Small Bowel",
+    "prediction": "Small Bowel",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the scanning plane of this image?",
+    "ground_truth": "Transverse  Plane",
+    "prediction": "Transverse  Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which is the kidney?",
+    "ground_truth": "Symmetrical to the bone marrow",
+    "prediction": "Left",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "CT",
+    "prediction": "CT",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Abdomen",
+    "prediction": "Abdomen",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain liver?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain kidney?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain spleen?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain lung?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain heart?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the rightmost organ in this image?",
+    "ground_truth": "Large Bowel",
+    "prediction": "Spleen",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What organ is the gray part on the left of the image?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What organ is the black part on the left of the image?",
+    "ground_truth": "Right Lung",
+    "prediction": "Liver",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What is the organ on the top of the body in this image?",
+    "ground_truth": "Stomach",
+    "prediction": "Liver",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What is the scanning plane of this image?",
+    "ground_truth": "Transverse  Plane",
+    "prediction": "Transverse  Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What organ is the black hole in the upper right corner?",
+    "ground_truth": "Large Bowel",
+    "prediction": "Stomach",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "CT",
+    "prediction": "CT",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Abdomen",
+    "prediction": "Abdomen",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain liver?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain kidney?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the picture contain spleen?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain lung?",
+    "ground_truth": "Yes",
+    "prediction": "No",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the picture contain heart?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many kidneys in this image?",
+    "ground_truth": "0",
+    "prediction": "0",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which is bigger in this image, liver or spleen?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the rightmost organ in this image?",
+    "ground_truth": "Large Bowel",
+    "prediction": "Left Lung",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What organ is the gray part on the left of the image?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What organ is the black part on the left of the image?",
+    "ground_truth": "Right Lung",
+    "prediction": "Liver",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What is the scanning plane of this image?",
+    "ground_truth": "Transverse  Plane",
+    "prediction": "Transverse  Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What organ is the black hole in the upper right corner?",
+    "ground_truth": "Large Bowel",
+    "prediction": "Stomach",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What type of medical image is this?",
+    "ground_truth": "X-Ray",
+    "prediction": "X-Ray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the scanning plane of this image?",
+    "ground_truth": "Coronal Plane",
+    "prediction": "Coronal Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part do the organs in this image locate from the aspect of the whole body?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which side of lung is abnormal in this image,left or right?",
+    "ground_truth": "Right",
+    "prediction": "Right",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What part of the lung is the pneumothorax located in?",
+    "ground_truth": "Upper Right Lung",
+    "prediction": "Left Lung",
+    "exact_match": 0,
+    "token_f1": 0.4
+  },
+  {
+    "question": "Which organ system is imaged?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which organs appear in pairs?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is/Are there abnormalities in the patient's right lung?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this image normal?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Can pneumothorax be observed on the lower left lung in this picture?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What color does the left lung show in the picture?",
+    "ground_truth": "Black",
+    "prediction": "Black",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many lungs are shown in this image?",
+    "ground_truth": "2",
+    "prediction": "2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the effect of the main organ in this picture?",
+    "ground_truth": "Breathe",
+    "prediction": "Breathe",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What kind of symptoms will the disease on the upper right of lung bring to the patient?",
+    "ground_truth": "Chest pain, dyspnea",
+    "prediction": "Chest tightness, cough",
+    "exact_match": 0,
+    "token_f1": 0.3333333333333333
+  },
+  {
+    "question": "Which organs/organ in the picture belong to the respiratory system?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What imaging modality was used?",
+    "ground_truth": "X-Ray",
+    "prediction": "X-Ray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a transverse plane?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the human body is the organ located in the image?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the abnormality in this image?",
+    "ground_truth": "Lower Right Lung",
+    "prediction": "Right Lung",
+    "exact_match": 0,
+    "token_f1": 0.8
+  },
+  {
+    "question": "Where is the atelectasis in this image?",
+    "ground_truth": "Lower Right Lung",
+    "prediction": "Left Lung",
+    "exact_match": 0,
+    "token_f1": 0.4
+  },
+  {
+    "question": "What is the organ system visualized?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a study of the chest?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What disease is/are shown on the right of lung?",
+    "ground_truth": "Atelectasis",
+    "prediction": "Pulmonary Mass",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Is/Are there abnormalities in the patient's right lung?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Can atelectasis be observed on the upper right lung in this picture?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What color does the left lung show in the picture?",
+    "ground_truth": "Black",
+    "prediction": "Black",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many existing lungs in this image?",
+    "ground_truth": "2",
+    "prediction": "2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the function of the main organ in this picture?",
+    "ground_truth": "Breathe",
+    "prediction": "Breathe",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the main cause of the disease on the lower right of the lung in the picture?",
+    "ground_truth": "Bronchial obstruction",
+    "prediction": "Bacterial infection",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Which organs/organ in the picture belong to the circulatory system?",
+    "ground_truth": "Heart",
+    "prediction": "Heart",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this image taken via X-Ray?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a transverse plane?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which side of lung is abnormal in this image,left or right?",
+    "ground_truth": "Left",
+    "prediction": "Right",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Where is the mass in this image?",
+    "ground_truth": "Lower Left Lung",
+    "prediction": "Left Lung",
+    "exact_match": 0,
+    "token_f1": 0.8
+  },
+  {
+    "question": "Is this a study of the chest?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a study of the pelvic cavity?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What disease is/are shown on the left of lung?",
+    "ground_truth": "Pulmonary Mass",
+    "prediction": "Pulmonary Mass",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is the lung abnormal?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Can mass be observed on the lower left lung in this picture?",
+    "ground_truth": "Yes",
+    "prediction": "No",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What color is the lung in the picture?",
+    "ground_truth": "Black",
+    "prediction": "Black",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many existing heart in this image?",
+    "ground_truth": "1",
+    "prediction": "1",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How much damage will be caused to the body taking such an image?",
+    "ground_truth": "A Little",
+    "prediction": "A Little",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How to prevent the occurrence of the disease on the lower left lobe of lung in this image?",
+    "ground_truth": "Keep healthy",
+    "prediction": "Quit smoking, enhance physical fitness",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Which organs/organ in the picture belong to the circulatory system?",
+    "ground_truth": "Heart",
+    "prediction": "Heart",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What type of medical image is this?",
+    "ground_truth": "X-Ray",
+    "prediction": "X-Ray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a coronal section?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the abnormality in this image?",
+    "ground_truth": "Lower Left Lung",
+    "prediction": "Right Lung",
+    "exact_match": 0,
+    "token_f1": 0.4
+  },
+  {
+    "question": "Where is the atelectasis in this image?",
+    "ground_truth": "Lower Left Lung",
+    "prediction": "Left Lung",
+    "exact_match": 0,
+    "token_f1": 0.8
+  },
+  {
+    "question": "Is this a study of the neck?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the main organ in the image?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the patient have any abnormalities?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this image normal?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Can atelectasis be observed on the lower left lung in this picture?",
+    "ground_truth": "Yes",
+    "prediction": "No",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What color does the right lung show in the picture?",
+    "ground_truth": "Black",
+    "prediction": "Black",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many lungs are shown in this image?",
+    "ground_truth": "2",
+    "prediction": "2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How much damage will be caused to the body taking such an image?",
+    "ground_truth": "A Little",
+    "prediction": "A Little",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How to treat the disease located on the left of lung in this image?",
+    "ground_truth": "Physical therapy, surgical treatment",
+    "prediction": "Medical treatment, surgical treatment",
+    "exact_match": 0,
+    "token_f1": 0.5
+  },
+  {
+    "question": "Which organs/organ in the picture belong to the respiratory system?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this image taken via X-Ray?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the scanning plane of this image?",
+    "ground_truth": "Coronal Plane",
+    "prediction": "Coronal Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which side of lung is abnormal in this image,left or right?",
+    "ground_truth": "Right",
+    "prediction": "Right",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the pneumonia in the lung?",
+    "ground_truth": "Right Lung",
+    "prediction": "Left Lung",
+    "exact_match": 0,
+    "token_f1": 0.5
+  },
+  {
+    "question": "What organ system is primarily present in this image?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What organ system is pictured?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What disease is/are shown on the right of lung?",
+    "ground_truth": "Pneumonia",
+    "prediction": "Pneumonia",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the lung look abnormal?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Can pneumonia be observed on the right lung in this picture?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What color does the right lung show in the picture?",
+    "ground_truth": "Black",
+    "prediction": "Black",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many existing lungs in this image?",
+    "ground_truth": "2",
+    "prediction": "2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What can the organ with black color in this image be used for?",
+    "ground_truth": "Breathe",
+    "prediction": "Breathe",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How to treat the disease located on the right of lung in this image?",
+    "ground_truth": "Medical therapy, supportive therapy",
+    "prediction": "Medical treatment, surgical treatment",
+    "exact_match": 0,
+    "token_f1": 0.25
+  },
+  {
+    "question": "Which organs/organ is part of the circulatory system in this image?",
+    "ground_truth": "Heart",
+    "prediction": "Heart",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is shown in this image?",
+    "ground_truth": "X-Ray",
+    "prediction": "X-Ray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which plane is the image scanned, transverse plane or coronal plane?",
+    "ground_truth": "Coronal Plane",
+    "prediction": "Coronal Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Do the organs in the image exist in the abdomen?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the abnormality in this image?",
+    "ground_truth": "Heart",
+    "prediction": "Right Lung",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Where is the cardiomegaly in this image?",
+    "ground_truth": "Heart",
+    "prediction": "Heart",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which organs appear in pairs?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which organ system is imaged?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "Cardiomegaly",
+    "prediction": "Pneumonia",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Is this image normal?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Can cardiomegaly be observed on the heart in this picture?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What color does the left lung show in the picture?",
+    "ground_truth": "Black",
+    "prediction": "Black",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many organs are there in this image?",
+    "ground_truth": "2",
+    "prediction": "2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the function of the main organ in this picture?",
+    "ground_truth": "Breathe",
+    "prediction": "Breathe",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What kind of symptoms will the disease on the heart in this image bring to the patient?",
+    "ground_truth": "Chest tightness, arrhythmia",
+    "prediction": "Chest tightness, palpitations",
+    "exact_match": 0,
+    "token_f1": 0.6666666666666666
+  },
+  {
+    "question": "Which organs/organ is part of the circulatory system in this image?",
+    "ground_truth": "Heart",
+    "prediction": "Heart",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What type of medical image is this?",
+    "ground_truth": "X-Ray",
+    "prediction": "X-Ray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this sagittal plane?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which lobe is abnormal in this image?",
+    "ground_truth": "Left",
+    "prediction": "Right",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Where is the pulmonary infiltration in this image?",
+    "ground_truth": "Lower Left Lung",
+    "prediction": "Left Lung",
+    "exact_match": 0,
+    "token_f1": 0.8
+  },
+  {
+    "question": "What organ system is pictured?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What organ system is primarily present in this image?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the lung look abnormal?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "Pulmonary Infiltration",
+    "prediction": "Pneumonia",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Can pulmonary infiltration be observed on the upper right lung in this picture?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What color does the left lung show in the picture?",
+    "ground_truth": "Black",
+    "prediction": "Black",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many organs are there in this image?",
+    "ground_truth": "2",
+    "prediction": "2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the effect of the main organ in this picture?",
+    "ground_truth": "Breathe",
+    "prediction": "Breathe",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How to prevent the occurrence of the disease on the lower left lobe of lung in this image?",
+    "ground_truth": "Live healthy, enhance physical fitness",
+    "prediction": "Quit smoking, enhance physical fitness",
+    "exact_match": 0,
+    "token_f1": 0.6
+  },
+  {
+    "question": "Which organs/organ is part of the respiratory system in this image?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What imaging modality was used?",
+    "ground_truth": "X-Ray",
+    "prediction": "X-Ray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which plane is the image scanned, transverse plane or coronal plane?",
+    "ground_truth": "Coronal Plane",
+    "prediction": "Coronal Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part do the organs in this image locate from the aspect of the whole body?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the abnormality in this image?",
+    "ground_truth": "Lower Left Lung",
+    "prediction": "Right Lung",
+    "exact_match": 0,
+    "token_f1": 0.4
+  },
+  {
+    "question": "Where is the pulmonary nodule located in this image?",
+    "ground_truth": "Lower Left Lung",
+    "prediction": "Left Lung",
+    "exact_match": 0,
+    "token_f1": 0.8
+  },
+  {
+    "question": "What is the organ system visualized?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which organ system is imaged?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is the lung normal appearing?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this image normal?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Can nodule be observed on the lower left lung in this picture?",
+    "ground_truth": "Yes",
+    "prediction": "No",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What color does the right lung show in the picture?",
+    "ground_truth": "Black",
+    "prediction": "Black",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many lungs are shown in this image?",
+    "ground_truth": "2",
+    "prediction": "2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the function of the main organ in this picture?",
+    "ground_truth": "Breathe",
+    "prediction": "Breathe",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How to treat the disease located on the lower left of lung in this image?",
+    "ground_truth": "Medical treatment, surgical treatment",
+    "prediction": "Medical treatment, surgical treatment",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which organs/organ is part of the circulatory system in this image?",
+    "ground_truth": "Heart",
+    "prediction": "Heart",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What imaging modality was used?",
+    "ground_truth": "X-Ray",
+    "prediction": "X-Ray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which plane is the image scanned, transverse plane or coronal plane?",
+    "ground_truth": "Coronal Plane",
+    "prediction": "Coronal Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the human body is the organ located in the image?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is/are the abnormality located in this picture?",
+    "ground_truth": "Upper Right Lung",
+    "prediction": "Center",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Where is the nodule in this image?",
+    "ground_truth": "Upper Right Lung",
+    "prediction": "Left Lung",
+    "exact_match": 0,
+    "token_f1": 0.4
+  },
+  {
+    "question": "Which organ system is imaged?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What organ system is pictured?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the patient have any abnormalities?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is the lung healthy?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Can nodule be observed on the upper right lung in this picture?",
+    "ground_truth": "Yes",
+    "prediction": "No",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What color does the right lung show in the picture?",
+    "ground_truth": "Black",
+    "prediction": "Black",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many lungs are shown in this image?",
+    "ground_truth": "2",
+    "prediction": "2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the function of the main organ in this picture?",
+    "ground_truth": "Breathe",
+    "prediction": "Breathe",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What kind of symptoms will the disease on the upper right lung bring to the patient?",
+    "ground_truth": "Chest tightness, fatigue",
+    "prediction": "Chest tightness, cough",
+    "exact_match": 0,
+    "token_f1": 0.6666666666666666
+  },
+  {
+    "question": "Which organs/organ in the picture belong to the respiratory system?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this an MRI scan?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a coronal plane?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Do the organs in the image exist in the chest?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the abnormality in this image?",
+    "ground_truth": "Upper Left Lung",
+    "prediction": "Right Lung",
+    "exact_match": 0,
+    "token_f1": 0.4
+  },
+  {
+    "question": "What part of the lung is the pneumothorax located in?",
+    "ground_truth": "Upper Left Lung",
+    "prediction": "Left Lung",
+    "exact_match": 0,
+    "token_f1": 0.8
+  },
+  {
+    "question": "What organ system is pictured?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which organ system is imaged?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is the lung normal appearing?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is/Are there abnormalities in the patient's left lung?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Can pneumothorax be observed on the lower right lung in this picture?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What color is the lung in the picture?",
+    "ground_truth": "Black",
+    "prediction": "Black",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many organs are there in this image?",
+    "ground_truth": "2",
+    "prediction": "2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How much damage will be caused to the body taking such an image?",
+    "ground_truth": "A Little",
+    "prediction": "A Little",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How to treat the disease located on the upper left of lung in this image?",
+    "ground_truth": "Medical therapy, supportive therapy",
+    "prediction": "Medical treatment, surgical treatment",
+    "exact_match": 0,
+    "token_f1": 0.25
+  },
+  {
+    "question": "Which organs/organ in the picture belong to the circulatory system?",
+    "ground_truth": "Heart",
+    "prediction": "Heart",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a X-Ray?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What scanning plane does this image belong to?",
+    "ground_truth": "Coronal Plane",
+    "prediction": "Coronal Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Do the organs in the image exist in the abdomen?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the abnormality in this image?",
+    "ground_truth": "Lower Left Lung",
+    "prediction": "Right Lung",
+    "exact_match": 0,
+    "token_f1": 0.4
+  },
+  {
+    "question": "Where is the pneumothorax in this image?",
+    "ground_truth": "Lower Left Lung",
+    "prediction": "Right Lung",
+    "exact_match": 0,
+    "token_f1": 0.4
+  },
+  {
+    "question": "What organ system is pictured?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which organ system is imaged?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Are there abnormalities in this image?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is the lung healthy?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Can pneumothorax be observed on the lower left lung in this picture?",
+    "ground_truth": "Yes",
+    "prediction": "No",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What color is the lung in the picture?",
+    "ground_truth": "Black",
+    "prediction": "Black",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many existing heart in this image?",
+    "ground_truth": "1",
+    "prediction": "1",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the effect of the center organ in this picture?",
+    "ground_truth": "Promote blood flow",
+    "prediction": "Promote blood flow",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the main cause of the disease on the lower left of the lung in the picture?",
+    "ground_truth": "Chest injury, lung disease, bullae",
+    "prediction": "Bacterial infection",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Which organs/organ in the picture belong to the circulatory system?",
+    "ground_truth": "Heart",
+    "prediction": "Heart",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this image taken via X-Ray?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "In what plane is this image scanned?",
+    "ground_truth": "Coronal Plane",
+    "prediction": "Coronal Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the human body is the organ located in the image?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the abnormality in this image?",
+    "ground_truth": "Left Lung",
+    "prediction": "Right Lung",
+    "exact_match": 0,
+    "token_f1": 0.5
+  },
+  {
+    "question": "Where is/are the nodule located in this image?",
+    "ground_truth": "Left Lung",
+    "prediction": "Left Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the main organ in the image?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What organ system is pictured?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is the lung healthy?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is the lung abnormal?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Can nodule be observed on the lower right lung in this picture?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What color is the lung in the picture?",
+    "ground_truth": "Black",
+    "prediction": "Black",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many organs are there in this image?",
+    "ground_truth": "2",
+    "prediction": "2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the function of the main organ in this picture?",
+    "ground_truth": "Breathe",
+    "prediction": "Breathe",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How to prevent the occurrence of the disease on the left lobe of lung in this image?",
+    "ground_truth": "Quit smoking, enhance physical fitness",
+    "prediction": "Quit smoking, enhance physical fitness",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which organs/organ in the picture belong to the respiratory system?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this image taken via X-Ray?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What scanning plane does this image belong to?",
+    "ground_truth": "Coronal Plane",
+    "prediction": "Coronal Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where does the picture show?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which side of lung is abnormal in this image,left or right?",
+    "ground_truth": "Left",
+    "prediction": "Right",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What part of the lung is the pneumonia located in?",
+    "ground_truth": "Lower Left Lung",
+    "prediction": "Left Lung",
+    "exact_match": 0,
+    "token_f1": 0.8
+  },
+  {
+    "question": "What is the organ system visualized?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which organs appear in pairs?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Are there abnormalities in this image?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is the lung healthy?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Can pneumonia be observed on the upper right lung in this picture?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What color does the right lung show in the picture?",
+    "ground_truth": "Black",
+    "prediction": "Black",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many lungs are shown in this image?",
+    "ground_truth": "2",
+    "prediction": "2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the effect of the center organ in this picture?",
+    "ground_truth": "Promote blood flow",
+    "prediction": "Promote blood flow",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How to treat the disease located on the lower left of lung in this image?",
+    "ground_truth": "Medical therapy, supportive therapy",
+    "prediction": "Medical treatment, surgical treatment",
+    "exact_match": 0,
+    "token_f1": 0.25
+  },
+  {
+    "question": "Which organs/organ in the picture belong to the respiratory system?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What type of medical image is this?",
+    "ground_truth": "X-Ray",
+    "prediction": "X-Ray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a coronal plane?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part do the organs in this image locate from the aspect of the whole body?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the abnormality in this image?",
+    "ground_truth": "Upper Right Lung",
+    "prediction": "Right Lung",
+    "exact_match": 0,
+    "token_f1": 0.8
+  },
+  {
+    "question": "What part of the lung is the pneumonia located in?",
+    "ground_truth": "Upper Right Lung",
+    "prediction": "Left Lung",
+    "exact_match": 0,
+    "token_f1": 0.4
+  },
+  {
+    "question": "Which organ system is imaged?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a study of the neck?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the lung look abnormal?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Are there abnormalities in this image?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Can pneumonia be observed on the upper right lung in this picture?",
+    "ground_truth": "Yes",
+    "prediction": "No",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What color is the lung in the picture?",
+    "ground_truth": "Black",
+    "prediction": "Black",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many existing heart in this image?",
+    "ground_truth": "1",
+    "prediction": "1",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the function of the main organ in this picture?",
+    "ground_truth": "Breathe",
+    "prediction": "Breathe",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How to prevent the occurrence of the disease on the upper right lobe of lung in this image?",
+    "ground_truth": "Pay attention to prevent cold and keep warm, enhance physical fitness",
+    "prediction": "Quit smoking, enhance physical fitness",
+    "exact_match": 0,
+    "token_f1": 0.37499999999999994
+  },
+  {
+    "question": "Which organs/organ is part of the respiratory system in this image?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How was this image taken?",
+    "ground_truth": "X-Ray",
+    "prediction": "X-Ray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a transverse section?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where does the picture show?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which side of lung is abnormal in this image?",
+    "ground_truth": "Right",
+    "prediction": "Right",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the pneumonia in the lung?",
+    "ground_truth": "Lower Right Lung",
+    "prediction": "Left Lung",
+    "exact_match": 0,
+    "token_f1": 0.4
+  },
+  {
+    "question": "Is this a study of the chest?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the organ system visualized?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What disease is/are shown on the right of lung?",
+    "ground_truth": "Pneumonia",
+    "prediction": "Pulmonary Mass",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Is the lung normal appearing?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Can pneumonia be observed on the lower right lung in this picture?",
+    "ground_truth": "Yes",
+    "prediction": "No",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What color does the right lung show in the picture?",
+    "ground_truth": "Black",
+    "prediction": "Black",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many existing lungs in this image?",
+    "ground_truth": "2",
+    "prediction": "2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the effect of the center organ in this picture?",
+    "ground_truth": "Promote blood flow",
+    "prediction": "Promote blood flow",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How to prevent the occurrence of the disease on the lower right lobe of lung in this image?",
+    "ground_truth": "Pay attention to prevent cold and keep warm, enhance physical fitness",
+    "prediction": "Quit smoking, enhance physical fitness",
+    "exact_match": 0,
+    "token_f1": 0.37499999999999994
+  },
+  {
+    "question": "Which organs/organ is part of the circulatory system in this image?",
+    "ground_truth": "Heart",
+    "prediction": "Heart",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this image taken via CT?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a transverse plane?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where does the picture show?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which side of lung is abnormal in this image?",
+    "ground_truth": "Left",
+    "prediction": "Right",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What part of the lung is the infiltration located in?",
+    "ground_truth": "Lower Left Lung",
+    "prediction": "Lower Left Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which organs appear in pairs?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the main organ in the image?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is/Are there abnormalities in the patient's left lung?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What disease is/are shown on the lower left of lung?",
+    "ground_truth": "Pulmonary Infiltration",
+    "prediction": "Pneumonia",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Can infiltration be observed on the lower left lung in this picture?",
+    "ground_truth": "Yes",
+    "prediction": "No",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What color is the lung in the picture?",
+    "ground_truth": "Black",
+    "prediction": "Black",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many existing lungs in this image?",
+    "ground_truth": "2",
+    "prediction": "2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What can the organ with black color in this image be used for?",
+    "ground_truth": "Breathe",
+    "prediction": "Breathe",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What kind of symptoms will the disease on the lower left of lung bring to the patient?",
+    "ground_truth": "Chest pain, cough, expectoration",
+    "prediction": "Chest tightness, cough, expectoration",
+    "exact_match": 0,
+    "token_f1": 0.75
+  },
+  {
+    "question": "Which organs/organ is part of the circulatory system in this image?",
+    "ground_truth": "Heart",
+    "prediction": "Heart",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this image taken via X-Ray?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a coronal section?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where does the image represent in the body?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of chest is abnormal in this image?",
+    "ground_truth": "Lower Left Lung",
+    "prediction": "Right Lung",
+    "exact_match": 0,
+    "token_f1": 0.4
+  },
+  {
+    "question": "Where is/are the effusion located?",
+    "ground_truth": "Lower Left Lung",
+    "prediction": "Right Lung",
+    "exact_match": 0,
+    "token_f1": 0.4
+  },
+  {
+    "question": "Which organ system is imaged?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a study of the head?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the patient have any abnormalities?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the lung look abnormal?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Can effusion be observed on the lower left lung in this picture?",
+    "ground_truth": "Yes",
+    "prediction": "No",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What color does the left lung show in the picture?",
+    "ground_truth": "Black",
+    "prediction": "Black",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many lungs are shown in this image?",
+    "ground_truth": "2",
+    "prediction": "2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What can the organ with black color in this image be used for?",
+    "ground_truth": "Breathe",
+    "prediction": "Breathe",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the main cause of the disease on the lower left of the lung in the picture?",
+    "ground_truth": "Inflammation, malignant tumor, trauma, etc",
+    "prediction": "Bacterial infection",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Which organs/organ is part of the circulatory system in this image?",
+    "ground_truth": "Heart",
+    "prediction": "Heart",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "X-Ray",
+    "prediction": "X-Ray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What scanning plane does this image belong to?",
+    "ground_truth": "Coronal Plane",
+    "prediction": "Coronal Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Do the organs in the image exist in the chest?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the heart in this image?",
+    "ground_truth": "Center",
+    "prediction": "Center",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the pleural effusion?",
+    "ground_truth": "Lower Left Lung",
+    "prediction": "Left Lung",
+    "exact_match": 0,
+    "token_f1": 0.8
+  },
+  {
+    "question": "Is this a study of the abdomen?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a study of the pelvic cavity?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "Pleural Effusion",
+    "prediction": "Pneumonia",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Is this image normal?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Can effusion be observed on the lower left lung in this picture?",
+    "ground_truth": "Yes",
+    "prediction": "No",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What color does the left lung show in the picture?",
+    "ground_truth": "Black",
+    "prediction": "Black",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many organs are there in this image?",
+    "ground_truth": "2",
+    "prediction": "2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the effect of the main organ in this picture?",
+    "ground_truth": "Breathe",
+    "prediction": "Breathe",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What kind of symptoms will the disease on the lower left of lung bring to the patient?",
+    "ground_truth": "Chest tightness, dyspnea, chest pain",
+    "prediction": "Chest tightness, cough, expectoration",
+    "exact_match": 0,
+    "token_f1": 0.4444444444444445
+  },
+  {
+    "question": "Which organs/organ is part of the respiratory system in this image?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which type of modality is shown about this image, MRI, CT or X-Ray?",
+    "ground_truth": "CT",
+    "prediction": "CT",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this sagittal plane?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Do the organs in the image exist in the head?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the brain stem in this image?",
+    "ground_truth": "Center",
+    "prediction": "Center",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which organs appear in pairs?",
+    "ground_truth": "Temporal Lobe",
+    "prediction": "Eyes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Is this a study of the abdomen?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain spleen?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the temporal lobe appear in this image?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What color is the right temporal lobe in the picture?",
+    "ground_truth": "Gray",
+    "prediction": "Gray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Brain",
+    "prediction": "Brain",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many ears are shown in this image?",
+    "ground_truth": "0",
+    "prediction": "2",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "How much damage will be caused to the body taking such an image?",
+    "ground_truth": "Much",
+    "prediction": "None",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Which organs/organ in the picture belong to the nervous system?",
+    "ground_truth": "Brain",
+    "prediction": "Brain",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Are there some organs controlling heartbeat and breathing in this image?",
+    "ground_truth": "Yes",
+    "prediction": "No",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Do any of the organs in the picture belong to the respiratory system?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a CT?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this sagittal plane?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where does the image represent in the body?",
+    "ground_truth": "Head",
+    "prediction": "Head",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the brain stem in this image?",
+    "ground_truth": "Center",
+    "prediction": "Center",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the organ system visualized?",
+    "ground_truth": "Head",
+    "prediction": "Head",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What organ system is primarily present in this image?",
+    "ground_truth": "Head",
+    "prediction": "Head",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the ears exist in this picture?",
+    "ground_truth": "Yes",
+    "prediction": "No",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the picture contain bladder?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What color is the ears in the picture?",
+    "ground_truth": "White",
+    "prediction": "Black",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Brain",
+    "prediction": "Brain",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many temporal lobes in this image?",
+    "ground_truth": "0",
+    "prediction": "2",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What is the function of the tissue on the center of this image?",
+    "ground_truth": "Control heartbeat and breathing",
+    "prediction": "Breathe",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the picture contain the organ which has the effect of storing urine?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Do any of the organs in the picture belong to the digestive system?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What modality is shown in this image?",
+    "ground_truth": "CT",
+    "prediction": "CT",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "In what plane is this image scanned?",
+    "ground_truth": "Transverse Plane",
+    "prediction": "Transverse Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Do the organs in the image exist in the head?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the tooth in this image?",
+    "ground_truth": "Top",
+    "prediction": "Top",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a study of the abdomen?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the organ system visualized?",
+    "ground_truth": "Head",
+    "prediction": "Head",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain mandible?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the parotid appear in the image?",
+    "ground_truth": "Yes",
+    "prediction": "No",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What color does the brain stem show in the picture?",
+    "ground_truth": "Gray",
+    "prediction": "Gray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Brain",
+    "prediction": "Brain",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many mandibles in this image?",
+    "ground_truth": "2",
+    "prediction": "2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the function of the organ on the top of this image?",
+    "ground_truth": "Cutting, chewing, maintaining facial contour and assisting pronunciation",
+    "prediction": "Breathe",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Which organs/organ in the picture belong to nervous system?",
+    "ground_truth": "Brain",
+    "prediction": "Brain",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Are there organs in the picture that can digest food?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Do any of the organs in the picture belong to the circulatory system?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is shown in this image?",
+    "ground_truth": "CT",
+    "prediction": "CT",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "In what plane is this image scanned?",
+    "ground_truth": "Transverse Plane",
+    "prediction": "Transverse Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Do the organs in the image exist in the head?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What organ system is pictured?",
+    "ground_truth": "Neck",
+    "prediction": "Neck",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is there an esophagus in this image?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the trachea exist in this picture?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the shape of larynx in this image?",
+    "ground_truth": "Oval",
+    "prediction": "Irregular",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Which organs/organ in the picture belong to the respiratory system?",
+    "ground_truth": "Larynx",
+    "prediction": "Larynx",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Are there organs in the picture that can deliver food?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain the organ which has the effect of gas delivery?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a CT?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What scanning plane does this image belong to?",
+    "ground_truth": "Transverse Plane",
+    "prediction": "Transverse Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where does the image represent in the body?",
+    "ground_truth": "Neck",
+    "prediction": "Neck",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the esophagus in this image?",
+    "ground_truth": "Under the trachea",
+    "prediction": "Top",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What organ system is primarily present in this image?",
+    "ground_truth": "Neck",
+    "prediction": "Neck",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the ears exist in this picture?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is there small bowel in this image?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What color do the trachea show in the picture?",
+    "ground_truth": "Black",
+    "prediction": "Black",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the shape of trachea about this patient?",
+    "ground_truth": "Irregular",
+    "prediction": "Irregular",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What role does the black hollow tissue play in the human body?",
+    "ground_truth": "Gas delivery",
+    "prediction": "Store feces, excrete feces",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Which organs/organ in the picture belong to the respiratory system?",
+    "ground_truth": "Trachea",
+    "prediction": "Larynx",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Do any of the organs in the picture belong to the nervous system?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain the organ that could be used for detoxicating?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this an MRI scan?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a transverse section?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Neck",
+    "prediction": "Neck",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which is trachea in this image?",
+    "ground_truth": "Black Hollow",
+    "prediction": "Black Hollow",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What organ system is primarily present in this image?",
+    "ground_truth": "Neck",
+    "prediction": "Neck",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain spinal cord?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Are/Is there kidneys in the picture?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the shape of trachea about this patient?",
+    "ground_truth": "Irregular",
+    "prediction": "Irregular",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What role does the black hollow tissue play in the human body?",
+    "ground_truth": "Gas delivery",
+    "prediction": "Store feces, excrete feces",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Which organs/organ in the picture belong to the digestive system?",
+    "ground_truth": "Esophagus",
+    "prediction": "Esophagus",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain the organ which has the effect of discharging waste?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Do any of the organs in the picture belong to the nervous system?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a CT scan?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which kind of weighting is this image generated with, t1 or t2?",
+    "ground_truth": "T2",
+    "prediction": "T1",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What is the scanning plane of this image?",
+    "ground_truth": "Transverse Plane",
+    "prediction": "Transverse Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Do the organs in the image exist in the head?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which hemisphere is abnormal,left or right?",
+    "ground_truth": "Right",
+    "prediction": "Right",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which organ system is imaged?",
+    "ground_truth": "Head",
+    "prediction": "Head",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "Brain Edema, Brain Enhancing Tumor",
+    "prediction": "Brain Edema, Brain Tumor",
+    "exact_match": 0,
+    "token_f1": 0.888888888888889
+  },
+  {
+    "question": "How many kinds of abnormalities are there in this image?",
+    "ground_truth": "2",
+    "prediction": "2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the main cause of the disease on the right lobe of brain in this picture?",
+    "ground_truth": "Brain embryonic tissue dysplasia, genetic factors, chemical factors",
+    "prediction": "Brain development disorder, genetic factors",
+    "exact_match": 0,
+    "token_f1": 0.4615384615384615
+  },
+  {
+    "question": "How was this image taken?",
+    "ground_truth": "MRI",
+    "prediction": "MRI",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this an MRI image with T1 weighted?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a coronal section?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where does the picture show?",
+    "ground_truth": "Head",
+    "prediction": "Head",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the brain non-enhancing tumor?",
+    "ground_truth": "Upper Left Lobe",
+    "prediction": "Left Lobe",
+    "exact_match": 0,
+    "token_f1": 0.8
+  },
+  {
+    "question": "Which organ system is imaged?",
+    "ground_truth": "Head",
+    "prediction": "Head",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is the brain healthy?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the color of abnormality in this image?",
+    "ground_truth": "White",
+    "prediction": "White",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the main cause of the disease on the upper left lobe of brain in this picture?",
+    "ground_truth": "Brain embryonic tissue dysplasia, genetic factors, chemical factors",
+    "prediction": "Brain embryonic tissue dysplasia, genetic factors",
+    "exact_match": 0,
+    "token_f1": 0.8571428571428571
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "MRI",
+    "prediction": "MRI",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which kind of weighting is this image generated with, t1 or t2?",
+    "ground_truth": "T2",
+    "prediction": "T1",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Is this sagittal plane?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where does the picture show?",
+    "ground_truth": "Head",
+    "prediction": "Head",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which hemisphere is abnormal,left or right?",
+    "ground_truth": "Left",
+    "prediction": "Right",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What organ system is primarily present in this image?",
+    "ground_truth": "Head",
+    "prediction": "Head",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What disease is/are shown on the left of brain?",
+    "ground_truth": "Brain Edema, Brain Enhancing Tumor, Brain Non-enhancing Tumor",
+    "prediction": "Brain Edema",
+    "exact_match": 0,
+    "token_f1": 0.4
+  },
+  {
+    "question": "Is the tumor enhancing?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many kinds of abnormalities are there in this image?",
+    "ground_truth": "3",
+    "prediction": "2",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What kind of symptoms will the disease on the left lobe of brain in the picture bring to the patient?",
+    "ground_truth": "Visual impairment, vomiting, tinnitus, increased intracranial pressure",
+    "prediction": "Visual impairment, vomiting, tinnitus, increased intracranial pressure",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is shown in this image?",
+    "ground_truth": "MRI",
+    "prediction": "MRI",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this an MRI image with T1 weighted?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the scanning plane of this image?",
+    "ground_truth": "Transverse Plane",
+    "prediction": "Transverse Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Do the organs in the image exist in the chest?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the brain edema?",
+    "ground_truth": "Left Lobe",
+    "prediction": "Left Lobe",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a study of the head?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is the brain abnormal?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many kinds of abnormalities are there in this image?",
+    "ground_truth": "1",
+    "prediction": "2",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "How to treat the most severe disease in this image?",
+    "ground_truth": "Pharmacotherapy, rehabilitation",
+    "prediction": "Medical treatment, supportive treatment, surgical treatment",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What modality is shown in this image?",
+    "ground_truth": "MRI",
+    "prediction": "MRI",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a T1 weighted or T2 weighted MRI image?",
+    "ground_truth": "T2",
+    "prediction": "T1",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Is this a coronal section?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Do the organs in the image exist in the abdomen?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where are the abnormalities in this image?",
+    "ground_truth": "Upper Left Lobe",
+    "prediction": "Left Lobe",
+    "exact_match": 0,
+    "token_f1": 0.8
+  },
+  {
+    "question": "Is this a study of the head?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is there evidence of a brain edema?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is the abnormality hyperdense or hypodense?",
+    "ground_truth": "Hyperdense",
+    "prediction": "Hypodense",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "How many kinds of abnormalities are there in this image?",
+    "ground_truth": "1",
+    "prediction": "2",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "How to treat the most severe disease in this image?",
+    "ground_truth": "Pharmacotherapy, rehabilitation",
+    "prediction": "Medical treatment, supportive treatment, surgical treatment",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What type of medical image is this?",
+    "ground_truth": "MRI",
+    "prediction": "MRI",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a T1 weighted or T2 weighted MRI image?",
+    "ground_truth": "T2",
+    "prediction": "T2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a coronal section?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Head",
+    "prediction": "Brain",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Where is the brain tumor?",
+    "ground_truth": "Upper Left Lobe",
+    "prediction": "Left Lobe",
+    "exact_match": 0,
+    "token_f1": 0.8
+  },
+  {
+    "question": "What is the organ system visualized?",
+    "ground_truth": "Head",
+    "prediction": "Head",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this image normal?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How to prevent the occurrence of the disease on the upper left lobe of brain in this image?",
+    "ground_truth": "Pay attention to dietary hygiene, strengthen physical fitness and avoid brain trauma",
+    "prediction": "Keep healthy",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What imaging modality was used?",
+    "ground_truth": "MRI",
+    "prediction": "MRI",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which kind of weighting is this image generated with, t1 or t2?",
+    "ground_truth": "T2",
+    "prediction": "T1",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Is this a transverse section?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Head",
+    "prediction": "Brain",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Where is the brain tumor?",
+    "ground_truth": "Upper Right Lobe",
+    "prediction": "Left Lobe",
+    "exact_match": 0,
+    "token_f1": 0.4
+  },
+  {
+    "question": "Is this a study of the neck?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What disease is/are shown on the upper right of brain?",
+    "ground_truth": "Brain Edema, Brain Non-enhancing Tumor",
+    "prediction": "Brain Edema",
+    "exact_match": 0,
+    "token_f1": 0.5714285714285715
+  },
+  {
+    "question": "Is the abnormality hyperdense or hypodense?",
+    "ground_truth": "Hyperdense",
+    "prediction": "Hypodense",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What kind of symptoms will the disease on the upper right lobe of brain in the picture bring to the patient?",
+    "ground_truth": "Visual impairment, vomiting, tinnitus, increased intracranial pressure",
+    "prediction": "Visual impairment, vomiting, tinnitus, increased intracranial pressure",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How was this image taken?",
+    "ground_truth": "MRI",
+    "prediction": "MRI",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a T1 weighted or T2 weighted MRI image?",
+    "ground_truth": "T2",
+    "prediction": "T2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a coronal section?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Do the organs in the image exist in the abdomen?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the brain tumor?",
+    "ground_truth": "Upper Right Lobe",
+    "prediction": "Left Lobe",
+    "exact_match": 0,
+    "token_f1": 0.4
+  },
+  {
+    "question": "Which organ system is imaged?",
+    "ground_truth": "Head",
+    "prediction": "Head",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is the brain abnormal?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How to prevent the occurrence of the disease on the upper right lobe of brain in this image?",
+    "ground_truth": "Pay attention to dietary hygiene, strengthen physical fitness and avoid brain trauma",
+    "prediction": "Keep healthy, enhance physical fitness",
+    "exact_match": 0,
+    "token_f1": 0.23529411764705882
+  },
+  {
+    "question": "Is this image taken via MRI?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the mr weighting in this image?",
+    "ground_truth": "T1",
+    "prediction": "T2",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What scanning plane does this image belong to?",
+    "ground_truth": "Transverse Plane",
+    "prediction": "Transverse Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where does the image represent in the body?",
+    "ground_truth": "Head",
+    "prediction": "Head",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which lobe is abnormal,left or right?",
+    "ground_truth": "Right",
+    "prediction": "Right",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a study of the head?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "Brain Edema, Brain Non-enhancing Tumor",
+    "prediction": "Brain Edema",
+    "exact_match": 0,
+    "token_f1": 0.5714285714285715
+  },
+  {
+    "question": "How much damage will be caused to the body taking such an image?",
+    "ground_truth": "None",
+    "prediction": "None",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "MRI",
+    "prediction": "MRI",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Brain",
+    "prediction": "Brain",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the mr weighting in this image?",
+    "ground_truth": "T2",
+    "prediction": "T2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the main organ in the image?",
+    "ground_truth": "Brain",
+    "prediction": "Brain",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Brain",
+    "prediction": "Brain",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain brian?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "Brain Edema",
+    "prediction": "Brain Edema",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the brain look abnormal?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is/are the abnormality located?",
+    "ground_truth": "Lower Right",
+    "prediction": "Upper Left Lobe",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Is this a X-Ray?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which kind of weighting is this image generated with, t1 or t2?",
+    "ground_truth": "T1",
+    "prediction": "T1",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a coronal plane?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Head",
+    "prediction": "Brain",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Where is/are the abnormality located?",
+    "ground_truth": "Upper Right Lobe",
+    "prediction": "Left Lobe",
+    "exact_match": 0,
+    "token_f1": 0.4
+  },
+  {
+    "question": "What organ system is pictured?",
+    "ground_truth": "Head",
+    "prediction": "Head",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is/Are there abnormalities in the patient's left brain lobe?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "How many kinds of abnormalities are there in this image?",
+    "ground_truth": "2",
+    "prediction": "2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How much damage will be caused to the body taking such an image?",
+    "ground_truth": "None",
+    "prediction": "None",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a CT scan?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the mr weighting in this image?",
+    "ground_truth": "T1",
+    "prediction": "T1",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this sagittal plane?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Do the organs in the image exist in the pelvic cavity?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where are the abnormalities in this image?",
+    "ground_truth": "Left Lobe",
+    "prediction": "Right Lobe",
+    "exact_match": 0,
+    "token_f1": 0.5
+  },
+  {
+    "question": "Which organ system is imaged?",
+    "ground_truth": "Head",
+    "prediction": "Head",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "Brain Edema, Brain Enhancing Tumor, Brain Non-enhancing Tumor",
+    "prediction": "Brain Tumor",
+    "exact_match": 0,
+    "token_f1": 0.4
+  },
+  {
+    "question": "Is the brain enhancing tumor hyperdense or hypodense?",
+    "ground_truth": "Hyperdense",
+    "prediction": "Hypodense",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What kind of symptoms will the disease on the left lobe of brain in the picture bring to the patient?",
+    "ground_truth": "Visual impairment, vomiting, tinnitus, increased intracranial pressure",
+    "prediction": "Visual impairment, vomiting, tinnitus, increased intracranial pressure",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this image taken via CT?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which kind of weighting is this image generated with, t1 or t2?",
+    "ground_truth": "T1",
+    "prediction": "T1",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "In what plane is this image scanned?",
+    "ground_truth": "Transverse Plane",
+    "prediction": "Transverse Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the human body is the organ located in the image?",
+    "ground_truth": "Head",
+    "prediction": "Head",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the brain tumor located?",
+    "ground_truth": "Lower Left Lobe",
+    "prediction": "Left Lobe",
+    "exact_match": 0,
+    "token_f1": 0.8
+  },
+  {
+    "question": "Is this a study of the chest?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the patient have brain tumor?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the main cause of the disease on the left lobe of brain in this picture?",
+    "ground_truth": "Brain embryonic tissue dysplasia, genetic factors, chemical factors",
+    "prediction": "Brain embryonic tissue dysplasia, genetic factors",
+    "exact_match": 0,
+    "token_f1": 0.8571428571428571
+  },
+  {
+    "question": "How was this image taken?",
+    "ground_truth": "MRI",
+    "prediction": "MRI",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What type of MRI is shown in this image?",
+    "ground_truth": "T1",
+    "prediction": "T1",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "In what plane is this image scanned?",
+    "ground_truth": "Transverse Plane",
+    "prediction": "Transverse Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where does the image represent in the body?",
+    "ground_truth": "Head",
+    "prediction": "Head",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the brain tumor?",
+    "ground_truth": "Left Lobe",
+    "prediction": "Left Lobe",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a study of the abdomen?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "Brain Edema, Brain Enhancing Tumor, Brain Non-enhancing Tumor",
+    "prediction": "Brain Tumor",
+    "exact_match": 0,
+    "token_f1": 0.4
+  },
+  {
+    "question": "What density is the brain enhancing tumor ?",
+    "ground_truth": "Hyperdense",
+    "prediction": "Hyperdense",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What kind of symptoms will the disease on the left lobe of brain in the picture bring to the patient?",
+    "ground_truth": "Visual impairment, vomiting, tinnitus, increased intracranial pressure",
+    "prediction": "Visual impairment, vomiting, tinnitus, increased intracranial pressure",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a CT?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this an MRI image with T2 weighted?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What is the scanning plane of this image?",
+    "ground_truth": "Transverse Plane",
+    "prediction": "Transverse  Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Do the organs in the image exist in the head?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is/are the abnormality located?",
+    "ground_truth": "Lower Left Lobe",
+    "prediction": "Right Lobe",
+    "exact_match": 0,
+    "token_f1": 0.4
+  },
+  {
+    "question": "What organ system is primarily present in this image?",
+    "ground_truth": "Head",
+    "prediction": "Head",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What disease is/are shown on the lower left of brain?",
+    "ground_truth": "Brain Edema, Brain Enhancing Tumor",
+    "prediction": "Brain Edema",
+    "exact_match": 0,
+    "token_f1": 0.5714285714285715
+  },
+  {
+    "question": "What is the color of brain enhancing tumor in this image?",
+    "ground_truth": "White",
+    "prediction": "White",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many kinds of abnormalities are there in this image?",
+    "ground_truth": "2",
+    "prediction": "2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How to prevent the occurrence of the disease on the lower left lobe of brain in this image?",
+    "ground_truth": "Pay attention to dietary hygiene, strengthen physical fitness and avoid brain trauma",
+    "prediction": "Keep healthy, enhance physical fitness",
+    "exact_match": 0,
+    "token_f1": 0.23529411764705882
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "MRI",
+    "prediction": "MRI",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this an MRI image with T2 weighted?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the scanning plane of this image?",
+    "ground_truth": "Transverse Plane",
+    "prediction": "Transverse Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Do the organs in the image exist in the head?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the brain non-enhancing tumor?",
+    "ground_truth": "Left Lobe",
+    "prediction": "Left Lobe",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a study of the head?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What disease is/are shown on the left of brain?",
+    "ground_truth": "Brain Edema, Brain Non-enhancing Tumor",
+    "prediction": "Brain Edema",
+    "exact_match": 0,
+    "token_f1": 0.5714285714285715
+  },
+  {
+    "question": "How many kinds of abnormalities are there in this image?",
+    "ground_truth": "2",
+    "prediction": "2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How much damage will be caused to the body taking such an image?",
+    "ground_truth": "None",
+    "prediction": "None",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this an MRI scan?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the mr weighting in this image?",
+    "ground_truth": "T2",
+    "prediction": "T2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a coronal section?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Do the organs in the image exist in the neck?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the brain edema located?",
+    "ground_truth": "Left Lobe",
+    "prediction": "Left Lobe",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What organ system is pictured?",
+    "ground_truth": "Head",
+    "prediction": "Head",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is the brain normal appearing?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How much damage will be caused to the body taking such an image?",
+    "ground_truth": "None",
+    "prediction": "None",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "MRI",
+    "prediction": "MRI",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Brain",
+    "prediction": "Brain",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the mr weighting in this image?",
+    "ground_truth": "T2",
+    "prediction": "T2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the main organ in the image?",
+    "ground_truth": "Brain",
+    "prediction": "Brain",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Brain",
+    "prediction": "Brain",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain brian?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "None",
+    "prediction": "Brain Edema, Brain Tumor",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the brain look abnormal?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Is this image taken via MRI?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which kind of weighting is this image generated with, t1 or t2?",
+    "ground_truth": "T2",
+    "prediction": "T1",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Is this a transverse section?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part do the organs in this image locate from the aspect of the whole body?",
+    "ground_truth": "Head",
+    "prediction": "Head",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where are the abnormalities in this image?",
+    "ground_truth": "Lower Left Lobe",
+    "prediction": "Upper Left Lobe",
+    "exact_match": 0,
+    "token_f1": 0.6666666666666666
+  },
+  {
+    "question": "Which organ system is imaged?",
+    "ground_truth": "Head",
+    "prediction": "Head",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What disease is/are shown on the left of brain?",
+    "ground_truth": "Brain Edema",
+    "prediction": "Brain Edema",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many kinds of abnormalities are there in this image?",
+    "ground_truth": "1",
+    "prediction": "2",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "How much damage will be caused to the body taking such an image?",
+    "ground_truth": "None",
+    "prediction": "None",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which is the kidney in this image?",
+    "ground_truth": "Symmetrical to the bottom spine",
+    "prediction": "Lower Right",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What organ is the gray part on the left of the image?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the stomach appear in the image?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the picture contain spleen?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What color is the spleen in the picture?",
+    "ground_truth": "Gray",
+    "prediction": "Gray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which is smaller in this image,liver or right kidney?",
+    "ground_truth": "Right Kidney",
+    "prediction": "Liver",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "How many organs are there in this image?",
+    "ground_truth": "6",
+    "prediction": "5",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "How much damage will be caused to the body taking such an image?",
+    "ground_truth": "Much",
+    "prediction": "Much",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which organs/organ is part of the lymphatic system in this image?",
+    "ground_truth": "Spleen",
+    "prediction": "Liver",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Which organs/organ is part of the urinary system in this image?",
+    "ground_truth": "Kidney",
+    "prediction": "Kidney",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain the organ which has the effect of discharging waste?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Do any of the organs in the picture belong to the respiratory system?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "In what plane is this image scanned?",
+    "ground_truth": "Transverse Plane",
+    "prediction": "Transverse Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the colon in this image?",
+    "ground_truth": "Upper Right",
+    "prediction": "Upper Right",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a study of the abdomen?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the trachea exist in this picture?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain bladder?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which is smaller in this image,liver or lung?",
+    "ground_truth": "Lung",
+    "prediction": "Liver",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "How many lungs have existed in this image?",
+    "ground_truth": "2",
+    "prediction": "0",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What is the effect of the organ on the upper left of this image?",
+    "ground_truth": "Biotransformation, detoxification",
+    "prediction": "Breathe",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Which organs/organ in the picture belong to the respiratory system?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain the organ that could be used for secreting enzymes?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Do any of the organs in the picture belong to the digestive system?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which organ system is imaged?",
+    "ground_truth": "Abdomen",
+    "prediction": "Abdomen",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the larynx appear in the image?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the lung exist in this picture?",
+    "ground_truth": "Yes",
+    "prediction": "No",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Which is smaller in this image,colon or liver?",
+    "ground_truth": "Colon",
+    "prediction": "Liver",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "How many existing heart in this image?",
+    "ground_truth": "0",
+    "prediction": "0",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the function of the organs appearing in pairs in the picture?",
+    "ground_truth": "Breathe",
+    "prediction": "Breathe",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which organs/organ is part of the digestive system in this image?",
+    "ground_truth": "Stomach, Colon",
+    "prediction": "Stomach",
+    "exact_match": 0,
+    "token_f1": 0.6666666666666666
+  },
+  {
+    "question": "Which organs/organ in the picture belong to the urinary system?",
+    "ground_truth": "Kidney",
+    "prediction": "Kidney",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain the organ which has the effect of detoxicating?",
+    "ground_truth": "Yes",
+    "prediction": "No",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the picture contain the organ which has the effect of adjusting water and osmotic pressure balance?",
+    "ground_truth": "Yes",
+    "prediction": "No",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What organ is the gray part on the right of the image?",
+    "ground_truth": "Small Bowel",
+    "prediction": "Liver",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the picture contain colon?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the picture contain brain stem?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which is smaller in this image,kidney or small bowel?",
+    "ground_truth": "Kidney",
+    "prediction": "Kidney",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many existing heart in this image?",
+    "ground_truth": "0",
+    "prediction": "0",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the effect of the organ on the top of this image?",
+    "ground_truth": "Absorb nutrients, secrete enzymes, digest food",
+    "prediction": "Absorb nutrients, secrete enzymes",
+    "exact_match": 0,
+    "token_f1": 0.8
+  },
+  {
+    "question": "Are there some organs controlling heartbeat and breathing in this image?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain the organ which has the effect of digesting food?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which is the kidney in this image?",
+    "ground_truth": "Symmetrical to the bottom spine",
+    "prediction": "Lower Right",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What organ is the black part on the upper left of the image?",
+    "ground_truth": "Small Bowel",
+    "prediction": "Liver",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the rectum appear in this picture?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain heart?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What color does the left kidney show in the picture?",
+    "ground_truth": "Gray",
+    "prediction": "Gray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which is smaller in this image, liver or right kidney?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many organs are there in this image?",
+    "ground_truth": "5",
+    "prediction": "5",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the shape of spinal cord in this image?",
+    "ground_truth": "Circular",
+    "prediction": "Circular",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the effect of the organ on the top of this image?",
+    "ground_truth": "Absorb nutrients, secrete enzymes, digest food",
+    "prediction": "Absorb nutrients, secrete enzymes",
+    "exact_match": 0,
+    "token_f1": 0.8
+  },
+  {
+    "question": "Which organs/organ is part of the nervous system in this image?",
+    "ground_truth": "Spinal cord",
+    "prediction": "Spinal cord",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain the organ which has the effect of digesting food?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain the organ that could be used for secreting enzymes?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the liver in this image?",
+    "ground_truth": "Left",
+    "prediction": "Left",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a study of the abdomen?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain colon?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the humerus head exist in this picture?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What color does the duodenum show in the picture?",
+    "ground_truth": "Gray",
+    "prediction": "Gray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which is smaller in this image, spleen or kidney?",
+    "ground_truth": "Spleen",
+    "prediction": "Spleen",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many lungs have existed in this image?",
+    "ground_truth": "0",
+    "prediction": "0",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the shape of spleen in the picture?",
+    "ground_truth": "Oval",
+    "prediction": "Irregular",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What is the function of the organ on the center of this image?",
+    "ground_truth": "Absorb nutrients, secrete enzymes, digest food",
+    "prediction": "Absorb nutrients, secrete enzymes",
+    "exact_match": 0,
+    "token_f1": 0.8
+  },
+  {
+    "question": "Which organs/organ is part of the nervous system in this image?",
+    "ground_truth": "Spinal cord",
+    "prediction": "Spinal cord",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Are there organs in the picture that can adjust water and osmotic pressure balance?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Are there any organs used for breathing in this image?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a transverse section?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the stomach in this image?",
+    "ground_truth": "Upper Right",
+    "prediction": "Upper Left",
+    "exact_match": 0,
+    "token_f1": 0.5
+  },
+  {
+    "question": "Which organ system is imaged?",
+    "ground_truth": "Abdomen",
+    "prediction": "Abdomen",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain eyes?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is there femoral head in this picture?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which is bigger in this image,liver or stomach?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many kidneys have existed in this image?",
+    "ground_truth": "0",
+    "prediction": "0",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the shape of spinal cord in this image?",
+    "ground_truth": "Circular",
+    "prediction": "Circular",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the function of the rightmost organ in this picture?",
+    "ground_truth": "Improve the body's immunity",
+    "prediction": "Store food, secrete digestive enzymes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Which organs/organ in the picture belong to the lymphatic system?",
+    "ground_truth": "Spleen",
+    "prediction": "Spleen",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain the organ that could receive sound?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain the organ which has the effect of gas delivery?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "In what plane is this image scanned?",
+    "ground_truth": "Transverse Plane",
+    "prediction": "Transverse Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the esophagus in this image?",
+    "ground_truth": "Center",
+    "prediction": "Top",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What is the organ system visualized?",
+    "ground_truth": "Abdomen",
+    "prediction": "Abdomen",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the esophagus exist in this picture?",
+    "ground_truth": "Yes",
+    "prediction": "No",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the stomach appear in the image?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What color is the spleen in this image?",
+    "ground_truth": "Gray",
+    "prediction": "Gray",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which is the biggest in this image, spleen, heart or liver?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many existing heart in this image?",
+    "ground_truth": "1",
+    "prediction": "1",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How much damage will be caused to the body taking such an image?",
+    "ground_truth": "Much",
+    "prediction": "A Little",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Are there organs in the picture that can digest food?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "MRI",
+    "prediction": "MRI",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Brain",
+    "prediction": "Brain",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the mr weighting in this image?",
+    "ground_truth": "T2",
+    "prediction": "T2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the main organ in the image?",
+    "ground_truth": "Brain",
+    "prediction": "Brain",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Brain",
+    "prediction": "Brain",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain brian?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "Brain Tumor, Brain Edema",
+    "prediction": "Brain Edema, Brain Tumor",
+    "exact_match": 0,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is the brain healthy?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Where is/are the abnormality located?",
+    "ground_truth": "Lower Left",
+    "prediction": "Left Lobe",
+    "exact_match": 0,
+    "token_f1": 0.5
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Abdomen",
+    "prediction": "Abdomen",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the heart in this image,left,top or upper left?",
+    "ground_truth": "Top",
+    "prediction": "Left",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Is this a study of the abdomen?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain heart?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain stomach?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Which is smaller in this image, esophagus or liver?",
+    "ground_truth": "Esophagus",
+    "prediction": "Liver",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "How many lungs have existed in this image?",
+    "ground_truth": "2",
+    "prediction": "2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How much damage will be caused to the body taking such an image?",
+    "ground_truth": "Much",
+    "prediction": "A Little",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Which organs/organ in the picture belong to the digestive system?",
+    "ground_truth": "Esophagus",
+    "prediction": "Esophagus",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain the organ which has the effect of gas delivery?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain the organ that could promote blood flow?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "In what plane is this image scanned?",
+    "ground_truth": "Transverse Plane",
+    "prediction": "Transverse Plane",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the leftmost organ in this image?",
+    "ground_truth": "Right Lung",
+    "prediction": "Right Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain spinal cord?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the rectum appear in this picture?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What color is the lung in this image?",
+    "ground_truth": "Black",
+    "prediction": "Black",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which is smaller in this image,heart or esophagus?",
+    "ground_truth": "Esophagus",
+    "prediction": "Heart",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "How many organs are there in this image?",
+    "ground_truth": "4",
+    "prediction": "4",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the function of the organ on the top of this image?",
+    "ground_truth": "Promote blood flow",
+    "prediction": "Breathe",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the picture contain the organ that could receive sound?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain the organ which has the effect of sensing light?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "CT",
+    "prediction": "MRI",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Where does the image represent in the body?",
+    "ground_truth": "Pelvic Cavity",
+    "prediction": "Pelvic Cavity",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is the rectum existing in this image?",
+    "ground_truth": "Bottom",
+    "prediction": "Center",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What organ system is primarily present in this image?",
+    "ground_truth": "Pelvic Cavity",
+    "prediction": "Pelvic Cavity",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain bladder?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the parotid appear in the image?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which is smaller in this image, bladder or rectum?",
+    "ground_truth": "Rectum",
+    "prediction": "Rectum",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "How many femoral heads are shown in this image?",
+    "ground_truth": "0",
+    "prediction": "2",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What is the function of the organ on the bottom of this picture?",
+    "ground_truth": "Store feces, excrete feces",
+    "prediction": "Store feces, excrete feces",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which organs/organ in the picture belong to the digestive system?",
+    "ground_truth": "Rectum",
+    "prediction": "Rectum",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain the organ which has the effect of discharging waste?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the picture contain the organ which has the effect of excreting feces?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a coronal section?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part do the organs in this image locate from the aspect of the whole body?",
+    "ground_truth": "Pelvic Cavity",
+    "prediction": "Pelvic Cavity",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where is rectum in this image?",
+    "ground_truth": "Bottom",
+    "prediction": "Top",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What is the organ system visualized?",
+    "ground_truth": "Pelvic Cavity",
+    "prediction": "Pelvic Cavity",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain rectum?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain bladder?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Bladder",
+    "prediction": "Bladder",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the effect of the gray organ on the center of this picture?",
+    "ground_truth": "Store urine",
+    "prediction": "Store urine, excrete urine",
+    "exact_match": 0,
+    "token_f1": 0.6666666666666666
+  },
+  {
+    "question": "Which organs/organ is part of the digestive system in this image?",
+    "ground_truth": "Rectum",
+    "prediction": "Rectum",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain the organ which has the effect of excreting feces?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain the organ which has the effect of detoxicating?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Pelvic Cavity",
+    "prediction": "Pelvic Cavity",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a study of the pelvic cavity?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain colon?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which organs/organ in the picture belong to the urinary system?",
+    "ground_truth": "Bladder",
+    "prediction": "Bladder",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Are there organs in the picture that can deliver food?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "How was this image taken?",
+    "ground_truth": "CT",
+    "prediction": "CT",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Where does the picture show?",
+    "ground_truth": "Pelvic Cavity",
+    "prediction": "Pelvic Cavity",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the rectum exist in this picture?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Which is bigger in this image, small bowel or colon?",
+    "ground_truth": "Small Bowel",
+    "prediction": "Colon",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What is the function of the organ on the bottom of this image?",
+    "ground_truth": "Digest food, absorb water, excrete body waste",
+    "prediction": "Store feces, excrete feces",
+    "exact_match": 0,
+    "token_f1": 0.18181818181818182
+  },
+  {
+    "question": "Do any of the organs in the picture belong to the urinary system?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What organ system is pictured?",
+    "ground_truth": "Pelvic Cavity",
+    "prediction": "Pelvic Cavity",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is there colon in the image?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which is smaller in this image, colon or small bowel?",
+    "ground_truth": "Colon",
+    "prediction": "Colon",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the function of the organ on the top of this image?",
+    "ground_truth": "Absorb nutrients, secrete enzymes, digest food",
+    "prediction": "Absorb water, excrete waste",
+    "exact_match": 0,
+    "token_f1": 0.2
+  },
+  {
+    "question": "Do any of the organs in the picture belong to the digestive system?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is this a coronal plane?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the human body is the organ located in the image?",
+    "ground_truth": "Pelvic Cavity",
+    "prediction": "Abdomen",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Where is colon in this image?",
+    "ground_truth": "Upper Left",
+    "prediction": "Top",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What organ system is primarily present in this image?",
+    "ground_truth": "Pelvic Cavity",
+    "prediction": "Abdomen",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Is there spinal cord in this picture?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the effect of the organ on the left of this picture?",
+    "ground_truth": "Digest food, absorb water, excrete body waste",
+    "prediction": "Absorb nutrients, secrete enzymes",
+    "exact_match": 0,
+    "token_f1": 0.18181818181818182
+  },
+  {
+    "question": "Which organs/organ is part of the digestive system in this image?",
+    "ground_truth": "Colon, Small Bowel",
+    "prediction": "Small Bowel, Colon",
+    "exact_match": 0,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Are there organs in the picture that can promote blood flow?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "MRI",
+    "prediction": "MRI",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Brain",
+    "prediction": "Brain",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the mr weighting in this image?",
+    "ground_truth": "T2",
+    "prediction": "T2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the main organ in the image?",
+    "ground_truth": "Brain",
+    "prediction": "Brain",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Brain",
+    "prediction": "Brain",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain brian?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "None",
+    "prediction": "Brain Edema, Brain Tumor",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Is the brain healthy?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "MRI",
+    "prediction": "MRI",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Brain",
+    "prediction": "Brain",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the mr weighting in this image?",
+    "ground_truth": "T2",
+    "prediction": "T2",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the main organ in the image?",
+    "ground_truth": "Brain",
+    "prediction": "Brain",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Brain",
+    "prediction": "Brain",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain brian?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "None",
+    "prediction": "Brain Edema",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Is the brain healthy?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "CT",
+    "prediction": "CT",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the main organ in the image?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain liver?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain lung?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain heart?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What diseases are included in the picture?",
+    "ground_truth": "None",
+    "prediction": "Lung Cancer",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Is the lung healthy?",
+    "ground_truth": "Yes",
+    "prediction": "No",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Which is the biggest in this image,lung,liver or heart?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "CT",
+    "prediction": "CT",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Chest",
+    "prediction": "Abdomen",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What is the main organ in the image?",
+    "ground_truth": "Liver",
+    "prediction": "Liver",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Liver",
+    "prediction": "Lung",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the picture contain liver?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain lung?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain heart?",
+    "ground_truth": "No",
+    "prediction": "Yes",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the lung look healthy?",
+    "ground_truth": "Yes",
+    "prediction": "No",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Which is the biggest in this image,lung,liver or heart?",
+    "ground_truth": "Liver",
+    "prediction": "Lung",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "CT",
+    "prediction": "CT",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Chest",
+    "prediction": "Chest",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What is the main organ in the image?",
+    "ground_truth": "Lung, Heart",
+    "prediction": "Lung",
+    "exact_match": 0,
+    "token_f1": 0.6666666666666666
+  },
+  {
+    "question": "What is the largest organ in the picture?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain liver?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain lung?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain heart?",
+    "ground_truth": "Yes",
+    "prediction": "Yes",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Is the lung healthy?",
+    "ground_truth": "Yes",
+    "prediction": "No",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Which is the biggest in this image,lung,liver or heart?",
+    "ground_truth": "Lung",
+    "prediction": "Lung",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "What modality is used to take this image?",
+    "ground_truth": "CT",
+    "prediction": "CT",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Which part of the body does this image belong to?",
+    "ground_truth": "Chest",
+    "prediction": "Neck",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "What is the main organ in the image?",
+    "ground_truth": "Spinal Cord",
+    "prediction": "Larynx",
+    "exact_match": 0,
+    "token_f1": 0.0
+  },
+  {
+    "question": "Does the picture contain liver?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain lung?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  },
+  {
+    "question": "Does the picture contain heart?",
+    "ground_truth": "No",
+    "prediction": "No",
+    "exact_match": 1,
+    "token_f1": 1.0
+  }
+]
